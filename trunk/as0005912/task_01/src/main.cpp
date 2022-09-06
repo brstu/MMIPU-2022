@@ -2,7 +2,7 @@
 #include <cmath>
 
 
-const double A = 1.0, B = 1.0, C = 5.0, D = 5.0;
+const double A = 1.0, B = 0.01, C = 20.0, D = 5.0;
 
 
 double calculate_linear_temperature(double curr_temperature, double input_warm)
