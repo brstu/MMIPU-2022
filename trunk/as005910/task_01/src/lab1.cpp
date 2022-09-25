@@ -3,17 +3,17 @@
 
 using namespace std;
 
-const double a = 1, b = 0.01, c = 5, d = 10;//константы, какими они должны быть я не понял, просто прикинул
+const double a = 1, b_l = 0.05, b_nl = 0.000001, c = 0.05, d = 0.005;//константы, сделал отдельную константу b для линейной и нелинейной моделей (b_l - для линейной, b_nl - для нелинейной)
 
 double LinearMod(double y_t, double f_t, int time) { //линейная модель, где y_t - начальная температура, f_t - теплота (изменение температуры), time - количество времени
 	while (time >= 0) {
-		return a * y_t + b * f_t;
+		return a * y_t + b_l * f_t;
 	}
 }
 
 double NonLinearMod(double y_t, double f_t, double EXy_t, int time) { //нелинейная модель, где y_t - начальная температура, f_t - теплота (изменение температуры), EXy_t - значение температуры в предыдущий момент времени, time - количество времени
 	while (time >= 0) {
-		return a * y_t - b * pow(EXy_t, 2) + c * f_t + d * sin(f_t);
+		return a * y_t - b_nl * pow(EXy_t, 2) + c * f_t + d * sin(f_t);
 	}
 }
 
@@ -35,7 +35,7 @@ Begin:
 		cout << "Введите количесвто времени (больше 0): ";
 		cin >> time;
 		if (time > 0) {
-			for (int i = 0; i <= time; i++) {
+			for (int i = 0; i < time; i++) {
 				y_t = LinearMod(y_t, f_t, time);
 				cout << "Результат изменения температуры по линейной модели: " << y_t << endl;
 			}
@@ -54,7 +54,7 @@ Begin:
 		cin >> time;
 		EXy_t = 0;
 		if (time > 0) {
-			for (int i = 0; i <= time; i++) {
+			for (int i = 0; i < time; i++) {
 				double fb = y_t;//переменная для записи в EXy_t
 				y_t = NonLinearMod(y_t, f_t, EXy_t, time);
 				cout << "Результат изменения температуры по нелинейной модели: " << y_t << endl;
