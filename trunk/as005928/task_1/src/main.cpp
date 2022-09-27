@@ -11,6 +11,7 @@ double NonLinearMod(double y_t, double f_t, double previous_y_t, int t) { // y_t
 	while (t >= 0) {
 		return A * y_t - B_noL * pow(previous_y_t, 2) + C * f_t + D * sin(f_t);
 	}
+	return 0;
 }
 
 // Линейная модель
@@ -18,6 +19,8 @@ double LinearMod(double y_t, double f_t, int t) { // y_t - начальная т
 	while (t >= 0) {
 		return A * y_t + B_L * f_t;
 	}
+
+	return 0;
 }
 
 
