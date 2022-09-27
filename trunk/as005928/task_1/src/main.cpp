@@ -41,7 +41,7 @@ Begin:
 		if (t > 0) {
 			for (int i = 0; i < t; i++) {
 				y_t = LinearMod(y_t, f_t, t);
-				cout << "Результат изменения температуры по линейной модели: " << y_t << endl;
+				cout << y_t << endl;
 			}
 		}
 		else {
@@ -59,9 +59,9 @@ Begin:
 		previous_y_t = 0;
 		if (t > 0) {
 			for (int i = 0; i < t; i++) {
-				double fb = y_t;//переменная для записи в EXy_t
+				double fb = y_t;//переменная для записи в previous_y_t
 				y_t = NonLinearMod(y_t, f_t, previous_y_t, t);
-				cout << "Результат изменения температуры по нелинейной модели: " << y_t << endl;
+				cout << y_t << endl;
 				previous_y_t += fb;
 			}
 		}
