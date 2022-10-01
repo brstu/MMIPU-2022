@@ -7,11 +7,15 @@
 ### Цель работы
 Пусть есть некоторый объект, которым можно управлять, и мы хотим контролировать его температуру, которая описывается следующим уравнением:
 
-![First eq.](MMIPU-2022/trunk/as0005917/task_01/doc/img/main_eq.png)
+<p align="center">
+<img src="img/main_eq.png">
+</p>
 
 Где R, C – некоторые константы, Y0 – комнатная температура (примем равной 24,5), у(t) – входящая температура, f(t) = u(t) – входящее тепло. Решением ДУ выступает:
 
-![Second eq.](MMIPU-2022/trunk/as0005917/task_01/doc/img/sub_eq.png)
+<p align="center">
+<img src="img/sub_eq.png">
+</p>
 
 ***
 
@@ -22,21 +26,33 @@
 
 ## Результаты работы программы:
 
-![Console_1.](MMIPU-2022/trunk/as0005917/task_01/doc/img/test_console.png)
+<p align="center">
+<img src="img/test_console.png">
+</p>
 
-![Console_2.](MMIPU-2022/trunk/as0005917/task_01/doc/img/test_console2.png)
+<p align="center">
+<img src="img/test_console2.png">
+</p>
 
 ### Вывод в текстовые файлы:
 
-![File_out.](MMIPU-2022/trunk/as0005917/task_01/doc/img/linear_txt.png)
+<p align="center">
+<img src="img/linear_txt.png">
+</p>
 
-![File2_out.](MMIPU-2022/trunk/as0005917/task_01/doc/img/nonlinear_txt.png)
+<p align="center">
+<img src="img/nonlinear_txt.png">
+</p>
 
 ### Графики функций:
 
-![Graph.](MMIPU-2022/trunk/as0005917/task_01/doc/img/linear.png)
+<p align="center">
+<img src="img/linear.png">
+</p>
 
-![Graph2.](MMIPU-2022/trunk/as0005917/task_01/doc/img/nonlinear.png)
+<p align="center">
+<img src="img/nonlinear.png">
+</p>
 
 ## Вывод
 Смоделировали управление температурой объекта, написали программу, построили графики линейного и нелинейного уравнения. 
