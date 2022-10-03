@@ -44,7 +44,7 @@ void linear_model(double room_temp, double input_warm, int time)
 
 void nonlinear_model(double room_temp, double input_warm, int time)
 {
-    double a = 1, b = 0.00001, c = 1, d = 1;
+    double a = 1, b = 0.0001, c = 3, d = 3;
     double tempNext = 0, tempPrev = 0;
 
     cout << endl << "Нелинейная модель: " << endl;
