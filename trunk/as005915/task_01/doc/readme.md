@@ -10,11 +10,11 @@
 ## **Результаты работы программы:**
   
 Результат работы
-![поместите md-файл с файлами изображений](./Results/linear.png)
-![поместите md-файл с файлами изображений](./Results/nonlinear.png)
+<img src="Results/nonlinear.png">
+<img src="Results/linear.png">
   
 График линейной функции
-![поместите md-файл с файлами изображений](./Grafics/linear.png)
+<img src="Grafics/linear.png">
   
 График нелинейной функции
-![поместите md-файл с файлами изображений](./Grafics/nonlinear.png)
+<img src="Grafics/nonlinear.png">
