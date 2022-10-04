@@ -1,7 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <clocale>
-#include <Windows.h>
 
 
 class TemperatureCalculator
@@ -85,14 +83,11 @@ public:
 
 
 int main()
-{
-    SetConsoleCP(1251);
-    SetConsoleOutputCP(1251);
-    
+{    
     TemperatureViewer* temperature_viewer;
     double a, b, c, d, current_temperature;
     int strategy_choise;
-    std::cout << "Выберите метод рассчета температуры (0 - линейный, 1 - нелинейный):" << std::endl;
+    std::cout << "Choose calculate strategy (0 - linear, 1 - nonlinear):" << std::endl;
     std::cin >> strategy_choise;
 
     switch (strategy_choise) {
@@ -102,7 +97,7 @@ int main()
             std::cin >> a;
             std::cout << "B: ";
             std::cin >> b;
-            std:: cout << "Текущая температура: ";
+            std:: cout << "Current temperature: ";
             std::cin >> current_temperature;
             TemperatureCalculator* linear_temperature_calculator = new LinearTemperatureCalculator(current_temperature, a, b);
             temperature_viewer = new TemperatureViewer(linear_temperature_calculator);
@@ -118,7 +113,7 @@ int main()
             std::cin >> c;
             std::cout << "D: ";
             std::cin >> d;
-            std:: cout << "Текущая температура: ";
+            std:: cout << "Current temperature: ";
             std::cin >> current_temperature;
             TemperatureCalculator* nonlinear_temperature_calculator = new NonlinearTemperatureCalculator(current_temperature, a, b, c, d);
             temperature_viewer = new TemperatureViewer(nonlinear_temperature_calculator);
@@ -130,11 +125,12 @@ int main()
 
     double input_warm;
     int iterations_number;
-    std::cout << "Входное тепло: ";
+    std::cout << "Input warm: ";
     std::cin >> input_warm;
-    std::cout << "Количество итераций: ";
+    std::cout << "Iterations count: ";
     std::cin >> iterations_number;
     temperature_viewer->GetTemperaturesToConsole(iterations_number, input_warm);
     delete temperature_viewer;
     return 0;
 }
+
