@@ -12,10 +12,13 @@
 Результат работы
 
 <img src="Results/nonlinear.png">
+
 <img src="Results/linear.png">
   
 График линейной функции
+
 <img src="Grafics/linear.png">
   
 График нелинейной функции
+
 <img src="Grafics/nonlinear.png">
