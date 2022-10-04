@@ -61,8 +61,8 @@ Float взял, ибо в double не было необходимости.
 Решил не использовать рекурсию, так как считаю это лишним риском и надёжнее использовать циклы, а рекурсия используется в достаточно специфичных ситуациях.
 
 ## Результаты работы программы: ##
-![](https://github.com/Pandem1r/MMIPU-2022/blob/main/trunk/as0005907/images/Results_lab1.png)
+![](../../images/Results_lab1.png)
 ## График линейной модели: ##
-![](https://github.com/Pandem1r/MMIPU-2022/blob/main/trunk/as0005907/images/Linear_Lab1.png)
+![](../../images/Linear_Lab1.png)
 ## График нелинейной модели: ##
-![](https://github.com/Pandem1r/MMIPU-2022/blob/main/trunk/as0005907/images/Nonlinear_Lab1.png)
+![](../../images/Nonlinear_Lab1.png)
