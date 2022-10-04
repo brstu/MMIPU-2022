@@ -25,7 +25,7 @@ int main() {
 	cin >> y_t;
 	cout << "Введите значение теплоты (то, на сколько будет изменяться температура): ";
 	cin >> f_t;
-	cout << "Введите количесвто времени (больше 0): ";
+	cout << "Введите количество времени (больше 0): ";
 	cin >> time;
 	int choice;
 	cout << "1.Температура по линейной модели" << endl;
@@ -44,6 +44,7 @@ int main() {
 					fout << i << '\t' << y_t << endl;
 				}
 			}
+			fout.close();
 			cout << "Данные были сохранены в файл linear.txt" << endl;
 		}
 		else {
@@ -68,6 +69,7 @@ int main() {
 					EXf_t = _EXf_t_;
 				}
 			}
+			fout.close();
 			cout << "Данные были сохранены в файл nonlinear.txt" << endl;
 		}
 		else {
