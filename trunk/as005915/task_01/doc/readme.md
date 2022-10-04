@@ -10,8 +10,8 @@
 ## **Результаты работы программы:**
   
 Результат работы
-<p align = "right">
-<img src="Results/nonlinear.png"></p>
+
+<img src="Results/nonlinear.png">
 <img src="Results/linear.png">
   
 График линейной функции
