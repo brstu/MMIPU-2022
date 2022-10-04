@@ -17,21 +17,21 @@
 ## Результаты работы программы:
 
 <p align="center">
-<img src="img/Result1.png">
+<img src="pictures/Result1.png">
 </p>
 
 <p align="center">
-<img src="img/Result2.png">
+<img src="pictures/Result2.png">
 </p>
 
 ### Графики функций:
 
 <p align="center">
-<img src="img/Linear.jpg">
+<img src="pictures/Linear.jpg">
 </p>
 
 <p align="center">
-<img src="img/NonLinear.jpg">
+<img src="pictures/NonLinear.jpg">
 </p>
 
 ## Вывод
