@@ -69,7 +69,7 @@ Begin:
     cout << "Введите количество итераций: ";
     cin >> time;
     prev_y_t = 0;
-    if (t > 0)
+    if (time > 0)
     {
       for (int i = 0; i < time; i++)
       {
