@@ -21,5 +21,5 @@
 Надо смоделировать температуру определенного объекта
 ## Результат выполнения программы
 
-![модели](doc/graph.png)
+![модели](https://github.com/Ts1ganoV/MMIPU-2022/blob/main/trunk/as005930/task_01/doc/graph.PNG?raw=true)
 ![результат файла(doc/result.png)
