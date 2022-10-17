@@ -22,4 +22,4 @@
 ## Результат выполнения программы
 
 ![модели](https://github.com/Ts1ganoV/MMIPU-2022/blob/main/trunk/as005930/task_01/doc/graph.PNG?raw=true)
-![результат файла(doc/result.png)
+![результат файла([doc/result.png](https://github.com/Ts1ganoV/MMIPU-2022/blob/main/trunk/as005930/task_01/doc/result.PNG?raw=true))
