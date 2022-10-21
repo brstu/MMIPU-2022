@@ -28,5 +28,5 @@
 Для нелинейной модели: a = 1, b = 0.0001, c = 2, d = 2.  
 
 ## Результат выполнения программы  
-![](images/res1.png)
-![](images/exc1.png)
+![линейная модель ](https://github.com/brstu/MMIPU-2022/pull/26/files?short_path=ca2f6fb#diff-2e4e29c4dd879e3d2dce6d69684b6f2075d505d3b8e23d4eac20b5e6f7ded6b2?raw=true)
+![нелинейная модель](https://github.com/brstu/MMIPU-2022/pull/26/files?short_path=ca2f6fb#diff-c1bc7772a5e1e0341765ef74f1781da4587611f3e02f9d41cbfa4d89ab0c039b?raw=true)
