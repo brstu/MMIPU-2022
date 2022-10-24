@@ -22,4 +22,4 @@
 ## Результат выполнения программы
 
 ![модели](doc/graph.png)
-![результат файла(doc/result.png)
+![результат файла(https://github.com/brstu/MMIPU-2022/pull/14/files#diff-543b115343a39729a91a02cd0b614a3d62359824d73d338e9034bfd81a8a2dee?raw=true)
