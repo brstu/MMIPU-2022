@@ -29,7 +29,6 @@ int main()
     int time;
     double temperature =0;
     double input_warm;
-     double t_temperature = 0;
     cout << "Введите входящую температуру (t): ";
     cin>>temperature;
     cout << "Введите входящее тепло (U): ";
