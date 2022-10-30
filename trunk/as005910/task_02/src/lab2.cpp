@@ -120,7 +120,7 @@ public:
 * \param y0 начальное значение y
 */
 void PIDregulator(float w, float y0, regulator* reg, model* md) {
-    float e = 0, em1 = 0, em2 = 0, u = 0, y = y0;
+    float e, em1 = 0, em2 = 0, u = 0, y = y0;
     ofstream fout;
     fout.open("E:\\PID.txt", ios_base::out | ios_base::app);
     if (fout.is_open()) {
