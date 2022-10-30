@@ -79,7 +79,6 @@ public:
         y_t1 = a * y_t - b * pow(y_t0, 2) + c * u_t + d * sin(u_t0);
         u_t0 = u_t;
         y_t0 = y_t;
-        y_t = y_t1;
         return y_t1;
     }
 };
