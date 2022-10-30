@@ -122,8 +122,9 @@ void PIDregulator(float w, float y0, regulator* reg, model* md) {
     ofstream fout;
     fout.open("E:\\PID.txt", ios_base::out | ios_base::app);
     if (fout.is_open()) {
-        float e, em1 = 0, em2 = 0, u, y = y0;
+        float em1 = 0, em2 = 0, y = y0;
         for (int i = 0; i < 100; i++) {
+            float e, u;
             e = w - y;
             u = reg->temperature(e, em1, em2);
             y = md->equation(y0, u);
