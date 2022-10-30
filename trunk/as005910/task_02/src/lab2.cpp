@@ -28,15 +28,16 @@ public:
 class LinearMod : public model
 {
 private:
-    float a, b, y_t1;///< a, b - просто коэффициенты, y_t1 - температура
+    float a, b, y_t1;///< a, b - просто коэффициенты, y_t1 - температура на выходе
 public:
-    LinearMod(float a, float b)
+    LinearMod(float a, float b, float y_t1)
     {
     /**
     * \details конструктор для LinearMod
     */
         this->a = a;
         this->b = b;
+        this->y_t1 = y_t1;
     }
     /**
     * \details считаем температуру по линейной модели
@@ -56,10 +57,10 @@ class NonLinearMod : public model
 {
 private:
     float a, c, d, b;///< a, b, c, d - просто коэффициенты
-    float y_t0 = 0, y_t1;///< y_t0 - предыдущее(начальное) значение температуры, y_t - текущее значение температуры
+    float y_t0 = 0, y_t1;///< y_t0 - предыдущее(начальное) значение температуры, y_t1 - текущее значение температуры на выходе
     float u_t0 = 0;///< u_t0 - переменная для предыдущего значения тепла
 public:
-    NonLinearMod(float a, float b, float c, float d)
+    NonLinearMod(float a, float b, float c, float d, float y_t1)
     {
     /**
     * \details конструктор для NonLinearMod
@@ -68,6 +69,7 @@ public:
         this->b = b;
         this->c = c;
         this->d = d;
+        this->y_t1 = y_t1;
     }
     /**
     * \details считаем температуру по нелинейной модели
@@ -143,11 +145,11 @@ int main()
     fout.open("E:\\PID.txt", ios_base::out | ios_base::app);
     if (fout.is_open()) {
         fout << "Linear Model:" << endl;
-        LinearMod* l = new LinearMod(0.333, 0.667);
+        LinearMod* l = new LinearMod(0.333, 0.667, 1);
         regulator* regl = new regulator(10, 10, 50, 0.09);
         PIDregulator(3, 2, regl, l);
         fout << "NonLinear Model:" << endl;
-        NonLinearMod* nl = new NonLinearMod(1, 0.0033, 0.525, 0.525);
+        NonLinearMod* nl = new NonLinearMod(1, 0.0033, 0.525, 0.525, 1);
         regulator* regnl = new regulator(10, 10, 50, 0.09);
         PIDregulator(3, 2, regnl, nl);
     }
