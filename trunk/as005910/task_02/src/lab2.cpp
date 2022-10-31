@@ -28,19 +28,21 @@ public:
 class LinearMod : public model
 {
 private:
-    float a, b, y_t1;///< a, b - просто коэффициенты, y_t1 - температура на выходе
+    float a, b, y_t1;
 public:
+    /**
+   * \details конструктор для LinearMod
+   * \param a, b - просто коэффициенты
+   * \param y_t1 - температура на выходе
+   */
     LinearMod(float a, float b, float y_t1)
     {
-    /**
-    * \details конструктор для LinearMod
-    */
         this->a = a;
         this->b = b;
         this->y_t1 = y_t1;
     }
     /**
-    * \details считаем температуру по линейной модели
+    * \details функция для вычисления температуры по линейной модели
     */
     float equation(float y_t, float u_t)
     {
@@ -60,11 +62,12 @@ private:
     float y_t0 = 0, y_t1;///< y_t0 - предыдущее(начальное) значение температуры, y_t1 - текущее значение температуры на выходе
     float u_t0 = 0;///< u_t0 - переменная для предыдущего значения тепла
 public:
+    /**
+   * \details конструктор для NonLinearMod
+   * \param a, b, c, d просто коэффициенты
+   */
     NonLinearMod(float a, float b, float c, float d, float y_t1)
     {
-    /**
-    * \details конструктор для NonLinearMod
-    */
         this->a = a;
         this->b = b;
         this->c = c;
@@ -72,7 +75,7 @@ public:
         this->y_t1 = y_t1;
     }
     /**
-    * \details считаем температуру по нелинейной модели
+    * \details функция для вычисления температуры по нелинейной модели
     */
     float equation(float y_t, float u_t)
     {
@@ -91,16 +94,18 @@ class regulator
 private:
     float T, T0, TD, K, u = 0;
 public:
-    regulator(float T, float T0, float TD, float K) {
     /**
     * \details конструктор для regulator
+    * \param K,T0,TD,T слева-направо: коэффициент передачи, шаг, постоянная диференцирования, постоянная интегрирования
     */
+    regulator(float T, float T0, float TD, float K) {
         this->T = T;
         this->T0 = T0;
         this->TD = TD;
         this->K = K;
     }
     /**
+    * \details функция для подсчёта управляющей переменной
     * \param e, em1, em2 значения текущей, прошлой и позапрошлой ошибок
     */
     float temperature(float e, float em1, float em2) {
@@ -113,6 +118,7 @@ public:
 };
 /**
 * \brief Функция, которая моделирует ПИД-регулятор
+* \details функция имитирует работу ПИД-регулятора
 * \param w желаемое значение
 * \param *reg указатель на экземпляр regulator
 * \param *md указатель на экземпляр model
