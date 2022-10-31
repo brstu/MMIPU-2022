@@ -89,7 +89,7 @@ public:
 class regulator
 {
 private:
-    float T, T0, TD, K, y_t1 = 0;
+    float T, T0, TD, K, u = 0;
 public:
     regulator(float T, float T0, float TD, float K) {
     /**
@@ -101,14 +101,14 @@ public:
         this->K = K;
     }
     /**
-    * \param q0, q1, q2 значения текущей, прошлой и позапрошлой ошибок
+    * \param e, em1, em2 значения текущей, прошлой и позапрошлой ошибок
     */
     float temperature(float e, float em1, float em2) {
         float q0 = K * (1 + TD / T0);
         float q1 = -K * (1 + 2 * TD / T0 - T0 / T);
         float q2 = K * TD / T0;
-        y_t1 += q0 * e + q1 * em1 + q2 * em2;
-        return y_t1;
+        u += q0 * e + q1 * em1 + q2 * em2;
+        return u;
     }
 };
 /**
