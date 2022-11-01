@@ -19,11 +19,11 @@
   
 График линейной функции
 
-<img src="Grafics/linear.png">
+<img src="/images/lineargrafic.png">
   
 График нелинейной функции
 
-<img src="Grafics/nonlinear.png">
+<img src="/images/nonlineargrafic.png">
 
 # class `Main`
 
