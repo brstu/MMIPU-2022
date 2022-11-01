@@ -330,7 +330,7 @@ public:
 int main()
 {    
     TemperatureCalculator* temperature_calculator;
-    double a, b, c, d, current_temperature;
+    double a, b, current_temperature;
     int strategy_choise;
     std::cout << "Choose calculate strategy (0 - linear, 1 - nonlinear):" << std::endl;
     std::cin >> strategy_choise;
@@ -349,6 +349,7 @@ int main()
         }
         case 1:
         {
+            double c, d;
             std::cout << "A: ";
             std::cin >> a;
             std::cout << "B: ";
