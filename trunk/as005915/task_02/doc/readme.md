@@ -11,11 +11,11 @@
 
 # Не линейная
 
-<img src="/nonlinear.png">
+<img src="/images/nonlinear.png">
 
 # Линейная
 
-<img src="/linear.png">
+<img src="/images/linear.png">
   
 График линейной функции
 
