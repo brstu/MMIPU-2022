@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿P#include <iostream>
 #include <vector>
 #include <fstream>
 
@@ -304,7 +304,7 @@ int main() {
 	* Создаём объект класса Regulator и TemperatureManipulationObject и вызываем метод для рассчёта и записи результатов в файл
 	*/
 	TemperatureManipulationObject* TMO;
-	TMO = new Bake(0);
+	TMO = new Bake(0, 24.5);
 
 	Regulator* regulator;
 
