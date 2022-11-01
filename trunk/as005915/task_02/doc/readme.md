@@ -11,19 +11,19 @@
 
 # Не линейная
 
-<img src="/images/nonlinear.png">
+<img src="/nonlinear.png">
 
 # Линейная
 
-<img src="/images/linear.png">
+<img src="/linear.png">
   
 График линейной функции
 
-<img src="Grafics/linear.png">
+<img src="/линейный график.png">
   
 График нелинейной функции
 
-<img src="Grafics/nonlinear.png">
+<img src="/нелинейный график.png">
 
 # class `Main`
 
