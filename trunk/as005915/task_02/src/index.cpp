@@ -73,8 +73,9 @@ public:
     /// \param pid pointer to Pid class
     /// \param res pointer to Res class
     void result(int iter, double temp, double warm, Pid* pid, Main* res) {
-        double e = 0, error1 = 0, error2 = 0, u = 0, y = warm;
+        double error1 = 0, error2 = 0, u = 0, y = warm;
         for (int i = 0; i < iter; i++) {
+            double e = 0;
             e = temp - y;
             u = pid->calculate(e, error1, error2);
             y = res->method(warm, u);
