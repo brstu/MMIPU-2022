@@ -143,7 +143,7 @@ class Feedback: public Element
 {
 private:
     double _expected_value;
-    double _e;
+    double _e = 0;
 public:
     /**
      * @brief    Construct a new Feedback object
@@ -202,9 +202,9 @@ public:
 class Regulator: public Element
 {
 private:
-    double _T, _T0, _TD, _K = 0;
+    double _T, _T0, _TD, _K;
     double _u = 0;
-    double _e2, _e1 = 0;
+    double _e2 = 0, _e1 = 0;
 public:
     /**
      * @brief    Construct a new Regulator object
@@ -275,7 +275,7 @@ class ControlObject: public Element
 {
 private:    
     TemperatureCalculator* _temperature_calculator;
-    double _temperature;
+    double _temperature = 0;
 public:
     /**
      * @brief    Construct a new Control Object object
