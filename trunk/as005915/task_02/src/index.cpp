@@ -15,7 +15,7 @@ public:
 class Linear : public Main
 {
 private:
-    double aL, bL, resL;
+    double aL, bL, resL = 0;
 public:
     Linear():aL(a), bL(b) {}
 
