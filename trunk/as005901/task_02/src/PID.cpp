@@ -129,7 +129,7 @@ public:
 		return this->temperature_in_nonlinear_model[time_moment];
 	}
 	
-	Bake(size_t time_moment) : TemperatureManipulationObject(time_moment, 24.5) explicit {
+	Bake(size_t time_moment, double start_temperature) : TemperatureManipulationObject(time_moment, start_temperature) {
 	   /**
 	   * Конструктор Bake
 	   *
