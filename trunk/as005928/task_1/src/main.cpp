@@ -3,35 +3,36 @@
 
 using namespace std;
 
-// Kонстанты,(b_l - для линейной, b_nl - для нелинейной)
-const double A = 1, B_L = 0.05, B_noL = 0.000001, C = 0.05, D = 0.005;
 
-// Нелинейная модель
-double NonLinearMod(double y_t, double f_t, double previous_y_t, int t) { // y_t - начальная температура, f_t - теплота (изменение температуры), previous_y_t - значение температуры в предыдущий момент времени, t - количество времени
-	while (t >= 0) {
-		return A * y_t - B_noL * pow(previous_y_t, 2) + C * f_t + D * sin(f_t);
-	}
-	return 0;
-}
+const double A = 1, B_L = 0.05, B_noL = 0.000001, C = 0.05, D = 0.005; // Создаем константы // B_L - линейная, B_noL - нелинейная
 
-// Линейная модель
-double LinearMod(double y_t, double f_t, int t) { // y_t - начальная температура, f_t - теплота (изменение температуры), t - количество времени
-	while (t >= 0) {
+// Создаем линейную модель
+// y_t - начальная температура, f_t - теплота (изменение температуры), time - количество времени
+double Linear(double y_t, double f_t, int time) { 
+	while (time >= 0) {
 		return A * y_t + B_L * f_t;
 	}
 
 	return 0;
 }
 
+// Создаем нелинейную модель
+// y_t - начальная температура, f_t - теплота (изменение температуры), prev_y_t - значение температуры в предыдущий момент времени, time - количество времени
+double NonLinear(double y_t, double f_t, double prev_y_t, int time) { 
+	while (time >= 0) {
+		return A * y_t - B_noL * pow(prev_y_t, 2) + C * f_t + D * sin(f_t);
+	}
+	return 0;
+}
 
 int main() {
 	setlocale(LC_ALL, "");
-	double y_t, f_t, previous_y_t, t;
+	double y_t, f_t, prev_y_t, time;
 Begin:
 	int choice;
-	cout << "1.По линейной модели" << endl;
-	cout << "2.По нелинейной модели" << endl;
-	cout << "Какое из действий выполнить? (1 или 2):" << endl;
+	cout << "1. Линейная модель" << endl;
+	cout << "2. Нелинейная модель" << endl;
+	cout << "Какую из модель выполнить? (1 или 2):" << endl;
 	cin >> choice;
 	switch (choice) {
 	case 1:
@@ -40,10 +41,10 @@ Begin:
 		cout << "Введите значение теплоты: ";
 		cin >> f_t;
 		cout << "Введите количество итераций: ";
-		cin >> t;
-		if (t > 0) {
-			for (int i = 0; i < t; i++) {
-				y_t = LinearMod(y_t, f_t, t);
+		cin >> time;
+		if (time > 0) {
+			for (int i = 0; i < time; i++) {
+				y_t = Linear(y_t, f_t, time);
 				cout << y_t << endl;
 			}
 		}
@@ -58,14 +59,14 @@ Begin:
 		cout << "Введите начальное значение теплоты: ";
 		cin >> f_t;
 		cout << "Введите количество итераций: ";
-		cin >> t;
-		previous_y_t = 0;
+		cin >> time;
+		prev_y_t = 0;
 		if (t > 0) {
-			for (int i = 0; i < t; i++) {
-				double fb = y_t;//переменная для записи в previous_y_t
-				y_t = NonLinearMod(y_t, f_t, previous_y_t, t);
+			for (int i = 0; i < time; i++) {
+				double fb = y_t; //переменная для записи в prev_y_t
+				y_t = NonLinear(y_t, f_t, prev_y_t, time);
 				cout << y_t << endl;
-				previous_y_t += fb;
+				prev_y_t += fb;
 			}
 		}
 		else {
