@@ -6,7 +6,7 @@
 | 2  | Бокатюк Анастасия Николаевна   |                                      |                  |                  |5        |C++ standards |
 | 3  | Бурда Дмитрий Сергеевич        | GreenDoritos                         |                  |                  |5        |              |
 | 4  | Быбко Тимофей Андреевич        | Bybko                                |:heavy_check_mark:|:heavy_check_mark:|7        |Hello git!    |
-| 5  | Ванюк Владислав Вячеславович   | Vlad-203                             |                  |                  |5        |              |
+| 5  | Ванюк Владислав Вячеславович   | Vlad-203                             |                  |                  |5        |awk           |
 | 6  | Вишневский Дмитрий Олегович    | Dmitry038                            |:heavy_check_mark:|                  |5        |              |
 | 7  | Горчинский Никита Сергеевич    | Pandem1r                             |:heavy_check_mark:|:heavy_check_mark:|7        |MS VS         |
 | 8  | Гриневич Артём Викторович      | nartemt                              |:heavy_check_mark:|                  |5        |              |
@@ -26,7 +26,7 @@
 | 22 | Пархоць Анна Владимировна      | parkhotsann                          |:heavy_check_mark:|:heavy_check_mark:|7        |              |
 | 23 | Пикун Дмитрий Александрович    | Dmitry Pikun                         |                  |:heavy_check_mark:|7        |              |
 | 24 | Савиков Максим Сергеевич       | KomRAD121                            |                  |                  |5        |              |
-| 25 | Сахацкий Александр Сергеевич   | Sanyajo                              |:heavy_check_mark:|:heavy_check_mark:|7        |              |
+| 25 | Сахацкий Александр Сергеевич   | Sanyajo                              |:heavy_check_mark:|:heavy_check_mark:|7        |GitHub in VSCode |
 | 26 | Строганов Данила Сергеевич     | danik28                              |                  |                  |5        |              |
 | 27 | Фоминюк Николай Степанович     | 1Nick10                              |                  |:heavy_check_mark:|7        |              |
 | 28 | Хабовец Тимофей Васильевич     | TimKhabovets                         |:heavy_check_mark:|:heavy_check_mark:|7        |Hello git!    |
