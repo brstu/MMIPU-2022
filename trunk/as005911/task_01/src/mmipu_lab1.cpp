@@ -7,9 +7,10 @@ double a = 1, lb = 1, nlb = 0.00001, c = 1, d = 0.1;
 
 void calculate_and_cout(const int& t, double temp, const double& warm)
 {
-	double lin_temp = 0.0, nonlin_temp = 0.0, lin_now = temp, nonlin_now = temp, nonlin_prev = 0.0;
+	
 	for (int i = 0; i < t; ++i)
 	{
+		float lin_temp, nonlin_temp, lin_now = temp, nonlin_now = temp, nonlin_prev;
 		lin_temp = a * lin_now + lb * warm;
 		lin_now = lin_temp;
 
