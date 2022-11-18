@@ -1,0 +1,4007 @@
+Results fîr each time moment: 
+
+Room temperatur = 24.5
+
+time moment = 0
+linear model = 24.5
+nonlinear model = 24.5
+
+time moment = 1
+linear model = 24.5364
+nonlinear model = 24.5001
+
+time moment = 2
+linear model = 24.614
+nonlinear model = 24.5808
+
+time moment = 3
+linear model = 24.7426
+nonlinear model = 24.7158
+
+time moment = 4
+linear model = 24.9319
+nonlinear model = 24.9158
+
+time moment = 5
+linear model = 25.1917
+nonlinear model = 25.1912
+
+time moment = 6
+linear model = 25.5315
+nonlinear model = 25.5525
+
+time moment = 7
+linear model = 25.9612
+nonlinear model = 26.0099
+
+time moment = 8
+linear model = 26.4904
+nonlinear model = 26.5738
+
+time moment = 9
+linear model = 27.1289
+nonlinear model = 27.2543
+
+time moment = 10
+linear model = 27.8863
+nonlinear model = 28.0613
+
+time moment = 11
+linear model = 28.7724
+nonlinear model = 29.0046
+
+time moment = 12
+linear model = 29.7968
+nonlinear model = 30.0936
+
+time moment = 13
+linear model = 30.9693
+nonlinear model = 31.3373
+
+time moment = 14
+linear model = 32.2996
+nonlinear model = 32.7444
+
+time moment = 15
+linear model = 33.7975
+nonlinear model = 34.3231
+
+time moment = 16
+linear model = 35.4725
+nonlinear model = 36.0812
+
+time moment = 17
+linear model = 37.3344
+nonlinear model = 38.026
+
+time moment = 18
+linear model = 39.393
+nonlinear model = 40.1644
+
+time moment = 19
+linear model = 41.6579
+nonlinear model = 42.5029
+
+time moment = 20
+linear model = 44.1389
+nonlinear model = 45.0479
+
+time moment = 21
+linear model = 46.8456
+nonlinear model = 47.8057
+
+time moment = 22
+linear model = 49.7878
+nonlinear model = 50.783
+
+time moment = 23
+linear model = 52.9752
+nonlinear model = 53.9869
+
+time moment = 24
+linear model = 56.4175
+nonlinear model = 57.4253
+
+time moment = 25
+linear model = 60.1243
+nonlinear model = 61.1075
+
+time moment = 26
+linear model = 64.1055
+nonlinear model = 65.0441
+
+time moment = 27
+linear model = 68.3707
+nonlinear model = 69.2473
+
+time moment = 28
+linear model = 72.9296
+nonlinear model = 73.731
+
+time moment = 29
+linear model = 77.7919
+nonlinear model = 78.511
+
+time moment = 30
+linear model = 82.9674
+nonlinear model = 83.6041
+
+time moment = 31
+linear model = 88.4658
+nonlinear model = 89.0279
+
+time moment = 32
+linear model = 94.2967
+nonlinear model = 94.7999
+
+time moment = 33
+linear model = 100.47
+nonlinear model = 100.937
+
+time moment = 34
+linear model = 106.995
+nonlinear model = 107.453
+
+time moment = 35
+linear model = 113.882
+nonlinear model = 114.359
+
+time moment = 36
+linear model = 121.14
+nonlinear model = 121.665
+
+time moment = 37
+linear model = 128.78
+nonlinear model = 129.373
+
+time moment = 38
+linear model = 136.81
+nonlinear model = 137.485
+
+time moment = 39
+linear model = 145.241
+nonlinear model = 145.997
+
+time moment = 40
+linear model = 154.082
+nonlinear model = 154.908
+
+time moment = 41
+linear model = 163.343
+nonlinear model = 164.215
+
+time moment = 42
+linear model = 173.033
+nonlinear model = 173.919
+
+time moment = 43
+linear model = 183.163
+nonlinear model = 184.027
+
+time moment = 44
+linear model = 193.743
+nonlinear model = 194.552
+
+time moment = 45
+linear model = 204.781
+nonlinear model = 205.514
+
+time moment = 46
+linear model = 216.287
+nonlinear model = 216.937
+
+time moment = 47
+linear model = 228.272
+nonlinear model = 228.849
+
+time moment = 48
+linear model = 240.744
+nonlinear model = 241.275
+
+time moment = 49
+linear model = 253.715
+nonlinear model = 254.237
+
+time moment = 50
+linear model = 267.192
+nonlinear model = 267.747
+
+time moment = 51
+linear model = 281.187
+nonlinear model = 281.808
+
+time moment = 52
+linear model = 295.709
+nonlinear model = 296.411
+
+time moment = 53
+linear model = 310.767
+nonlinear model = 311.546
+
+time moment = 54
+linear model = 326.371
+nonlinear model = 327.2
+
+time moment = 55
+linear model = 342.531
+nonlinear model = 343.368
+
+time moment = 56
+linear model = 359.257
+nonlinear model = 360.057
+
+time moment = 57
+linear model = 376.558
+nonlinear model = 377.287
+
+time moment = 58
+linear model = 394.444
+nonlinear model = 395.089
+
+time moment = 59
+linear model = 412.925
+nonlinear model = 413.501
+
+time moment = 60
+linear model = 432.01
+nonlinear model = 432.555
+
+time moment = 61
+linear model = 451.71
+nonlinear model = 452.273
+
+time moment = 62
+linear model = 472.033
+nonlinear model = 472.658
+
+time moment = 63
+linear model = 492.99
+nonlinear model = 493.697
+
+time moment = 64
+linear model = 514.591
+nonlinear model = 515.367
+
+time moment = 65
+linear model = 536.844
+nonlinear model = 537.651
+
+time moment = 66
+linear model = 559.76
+nonlinear model = 560.545
+
+time moment = 67
+linear model = 583.349
+nonlinear model = 584.065
+
+time moment = 68
+linear model = 607.62
+nonlinear model = 608.251
+
+time moment = 69
+linear model = 632.582
+nonlinear model = 633.148
+
+time moment = 70
+linear model = 658.246
+nonlinear model = 658.796
+
+time moment = 71
+linear model = 684.622
+nonlinear model = 685.211
+
+time moment = 72
+linear model = 711.718
+nonlinear model = 712.384
+
+time moment = 73
+linear model = 739.546
+nonlinear model = 740.286
+
+time moment = 74
+linear model = 768.113
+nonlinear model = 768.887
+
+time moment = 75
+linear model = 797.431
+nonlinear model = 798.178
+
+time moment = 76
+linear model = 827.509
+nonlinear model = 828.181
+
+time moment = 77
+linear model = 858.356
+nonlinear model = 858.943
+
+time moment = 78
+linear model = 889.983
+nonlinear model = 890.521
+
+time moment = 79
+linear model = 922.399
+nonlinear model = 922.95
+
+time moment = 80
+linear model = 955.613
+nonlinear model = 956.229
+
+time moment = 81
+linear model = 989.636
+nonlinear model = 990.329
+
+time moment = 82
+linear model = 1024.48
+nonlinear model = 1025.21
+
+time moment = 83
+linear model = 1060.15
+nonlinear model = 1060.85
+
+time moment = 84
+linear model = 1096.65
+nonlinear model = 1097.27
+
+time moment = 85
+linear model = 1134
+nonlinear model = 1134.54
+
+time moment = 86
+linear model = 1172.22
+nonlinear model = 1172.72
+
+time moment = 87
+linear model = 1211.29
+nonlinear model = 1211.83
+
+time moment = 88
+linear model = 1251.25
+nonlinear model = 1251.86
+
+time moment = 89
+linear model = 1292.09
+nonlinear model = 1292.75
+
+time moment = 90
+linear model = 1333.82
+nonlinear model = 1334.48
+
+time moment = 91
+linear model = 1376.46
+nonlinear model = 1377.05
+
+time moment = 92
+linear model = 1420.02
+nonlinear model = 1420.51
+
+time moment = 93
+linear model = 1464.5
+nonlinear model = 1464.95
+
+time moment = 94
+linear model = 1509.92
+nonlinear model = 1510.39
+
+time moment = 95
+linear model = 1556.28
+nonlinear model = 1556.82
+
+time moment = 96
+linear model = 1603.59
+nonlinear model = 1604.18
+
+time moment = 97
+linear model = 1651.87
+nonlinear model = 1652.43
+
+time moment = 98
+linear model = 1701.12
+nonlinear model = 1701.59
+
+time moment = 99
+linear model = 1751.36
+nonlinear model = 1751.74
+
+time moment = 100
+linear model = 1802.59
+nonlinear model = 1802.95
+
+time moment = 101
+linear model = 1854.82
+nonlinear model = 1855.23
+
+time moment = 102
+linear model = 1908.06
+nonlinear model = 1908.54
+
+time moment = 103
+linear model = 1962.33
+nonlinear model = 1962.8
+
+time moment = 104
+linear model = 2017.62
+nonlinear model = 2018.01
+
+time moment = 105
+linear model = 2073.96
+nonlinear model = 2074.25
+
+time moment = 106
+linear model = 2131.35
+nonlinear model = 2131.6
+
+time moment = 107
+linear model = 2189.8
+nonlinear model = 2190.09
+
+time moment = 108
+linear model = 2249.32
+nonlinear model = 2249.66
+
+time moment = 109
+linear model = 2309.93
+nonlinear model = 2310.25
+
+time moment = 110
+linear model = 2371.62
+nonlinear model = 2371.85
+
+time moment = 111
+linear model = 2434.41
+nonlinear model = 2434.54
+
+time moment = 112
+linear model = 2498.31
+nonlinear model = 2498.4
+
+time moment = 113
+linear model = 2563.33
+nonlinear model = 2563.46
+
+time moment = 114
+linear model = 2629.48
+nonlinear model = 2629.64
+
+time moment = 115
+linear model = 2696.77
+nonlinear model = 2696.88
+
+time moment = 116
+linear model = 2765.21
+nonlinear model = 2765.2
+
+time moment = 117
+linear model = 2834.8
+nonlinear model = 2834.7
+
+time moment = 118
+linear model = 2905.56
+nonlinear model = 2905.46
+
+time moment = 119
+linear model = 2977.5
+nonlinear model = 2977.44
+
+time moment = 120
+linear model = 3050.63
+nonlinear model = 3050.54
+
+time moment = 121
+linear model = 3124.96
+nonlinear model = 3124.76
+
+time moment = 122
+linear model = 3200.49
+nonlinear model = 3200.16
+
+time moment = 123
+linear model = 3277.23
+nonlinear model = 3276.86
+
+time moment = 124
+linear model = 3355.21
+nonlinear model = 3354.86
+
+time moment = 125
+linear model = 3434.42
+nonlinear model = 3434.06
+
+time moment = 126
+linear model = 3514.87
+nonlinear model = 3514.4
+
+time moment = 127
+linear model = 3596.58
+nonlinear model = 3595.96
+
+time moment = 128
+linear model = 3679.56
+nonlinear model = 3678.87
+
+time moment = 129
+linear model = 3763.81
+nonlinear model = 3763.13
+
+time moment = 130
+linear model = 3849.34
+nonlinear model = 3848.63
+
+time moment = 131
+linear model = 3936.17
+nonlinear model = 3935.33
+
+time moment = 132
+linear model = 4024.3
+nonlinear model = 4023.3
+
+time moment = 133
+linear model = 4113.75
+nonlinear model = 4112.67
+
+time moment = 134
+linear model = 4204.52
+nonlinear model = 4203.43
+
+time moment = 135
+linear model = 4296.62
+nonlinear model = 4295.47
+
+time moment = 136
+linear model = 4390.06
+nonlinear model = 4388.74
+
+time moment = 137
+linear model = 4484.86
+nonlinear model = 4483.38
+
+time moment = 138
+linear model = 4581.02
+nonlinear model = 4579.47
+
+time moment = 139
+linear model = 4678.55
+nonlinear model = 4676.97
+
+time moment = 140
+linear model = 4777.46
+nonlinear model = 4775.75
+
+time moment = 141
+linear model = 4877.77
+nonlinear model = 4875.85
+
+time moment = 142
+linear model = 4979.47
+nonlinear model = 4977.41
+
+time moment = 143
+linear model = 5082.59
+nonlinear model = 5080.46
+
+time moment = 144
+linear model = 5187.12
+nonlinear model = 5184.91
+
+time moment = 145
+linear model = 5293.09
+nonlinear model = 5290.67
+
+time moment = 146
+linear model = 5400.49
+nonlinear model = 5397.86
+
+time moment = 147
+linear model = 5509.35
+nonlinear model = 5506.6
+
+time moment = 148
+linear model = 5619.66
+nonlinear model = 5616.83
+
+time moment = 149
+linear model = 5731.44
+nonlinear model = 5728.41
+
+time moment = 150
+linear model = 5844.71
+nonlinear model = 5841.42
+
+time moment = 151
+linear model = 5959.46
+nonlinear model = 5956
+
+time moment = 152
+linear model = 6075.71
+nonlinear model = 6072.14
+
+time moment = 153
+linear model = 6193.46
+nonlinear model = 6189.7
+
+time moment = 154
+linear model = 6312.74
+nonlinear model = 6308.68
+
+time moment = 155
+linear model = 6433.54
+nonlinear model = 6429.26
+
+time moment = 156
+linear model = 6555.88
+nonlinear model = 6551.45
+
+time moment = 157
+linear model = 6679.76
+nonlinear model = 6675.12
+
+time moment = 158
+linear model = 6805.2
+nonlinear model = 6800.24
+
+time moment = 159
+linear model = 6932.21
+nonlinear model = 6926.98
+
+time moment = 160
+linear model = 7060.79
+nonlinear model = 7055.39
+
+time moment = 161
+linear model = 7190.96
+nonlinear model = 7185.31
+
+time moment = 162
+linear model = 7322.73
+nonlinear model = 7316.71
+
+time moment = 163
+linear model = 7456.09
+nonlinear model = 7449.77
+
+time moment = 164
+linear model = 7591.08
+nonlinear model = 7584.54
+
+time moment = 165
+linear model = 7727.69
+nonlinear model = 7720.85
+
+time moment = 166
+linear model = 7865.93
+nonlinear model = 7858.68
+
+time moment = 167
+linear model = 8005.81
+nonlinear model = 7998.24
+
+time moment = 168
+linear model = 8147.35
+nonlinear model = 8139.51
+
+time moment = 169
+linear model = 8290.56
+nonlinear model = 8282.35
+
+time moment = 170
+linear model = 8435.43
+nonlinear model = 8426.77
+
+time moment = 171
+linear model = 8581.99
+nonlinear model = 8572.97
+
+time moment = 172
+linear model = 8730.24
+nonlinear model = 8720.9
+
+time moment = 173
+linear model = 8880.2
+nonlinear model = 8870.4
+
+time moment = 174
+linear model = 9031.86
+nonlinear model = 9021.57
+
+time moment = 175
+linear model = 9185.25
+nonlinear model = 9174.58
+
+time moment = 176
+linear model = 9340.37
+nonlinear model = 9329.29
+
+time moment = 177
+linear model = 9497.23
+nonlinear model = 9485.6
+
+time moment = 178
+linear model = 9655.84
+nonlinear model = 9643.7
+
+time moment = 179
+linear model = 9816.21
+nonlinear model = 9803.65
+
+time moment = 180
+linear model = 9978.35
+nonlinear model = 9965.26
+
+time moment = 181
+linear model = 10142.3
+nonlinear model = 10128.6
+
+time moment = 182
+linear model = 10308
+nonlinear model = 10293.8
+
+time moment = 183
+linear model = 10475.5
+nonlinear model = 10460.8
+
+time moment = 184
+linear model = 10644.8
+nonlinear model = 10629.4
+
+time moment = 185
+linear model = 10815.9
+nonlinear model = 10799.9
+
+time moment = 186
+linear model = 10988.9
+nonlinear model = 10972.3
+
+time moment = 187
+linear model = 11163.7
+nonlinear model = 11146.5
+
+time moment = 188
+linear model = 11340.4
+nonlinear model = 11322.4
+
+time moment = 189
+linear model = 11518.9
+nonlinear model = 11500.2
+
+time moment = 190
+linear model = 11699.3
+nonlinear model = 11679.9
+
+time moment = 191
+linear model = 11881.5
+nonlinear model = 11861.4
+
+time moment = 192
+linear model = 12065.6
+nonlinear model = 12044.7
+
+time moment = 193
+linear model = 12251.7
+nonlinear model = 12230.1
+
+time moment = 194
+linear model = 12439.6
+nonlinear model = 12417.2
+
+time moment = 195
+linear model = 12629.5
+nonlinear model = 12606.1
+
+time moment = 196
+linear model = 12821.3
+nonlinear model = 12797.1
+
+time moment = 197
+linear model = 13015
+nonlinear model = 12990
+
+time moment = 198
+linear model = 13210.7
+nonlinear model = 13184.6
+
+time moment = 199
+linear model = 13408.3
+nonlinear model = 13381.4
+
+time moment = 200
+linear model = 13607.9
+nonlinear model = 13580
+
+time moment = 201
+linear model = 13809.4
+nonlinear model = 13780.5
+
+time moment = 202
+linear model = 14013
+nonlinear model = 13983
+
+time moment = 203
+linear model = 14218.5
+nonlinear model = 14187.6
+
+time moment = 204
+linear model = 14426
+nonlinear model = 14393.9
+
+time moment = 205
+linear model = 14635.6
+nonlinear model = 14602.4
+
+time moment = 206
+linear model = 14847.2
+nonlinear model = 14812.8
+
+time moment = 207
+linear model = 15060.8
+nonlinear model = 15025.2
+
+time moment = 208
+linear model = 15276.4
+nonlinear model = 15239.6
+
+time moment = 209
+linear model = 15494.1
+nonlinear model = 15456.1
+
+time moment = 210
+linear model = 15713.9
+nonlinear model = 15674.5
+
+time moment = 211
+linear model = 15935.7
+nonlinear model = 15895
+
+time moment = 212
+linear model = 16159.6
+nonlinear model = 16117.6
+
+time moment = 213
+linear model = 16385.7
+nonlinear model = 16342.1
+
+time moment = 214
+linear model = 16613.8
+nonlinear model = 16568.8
+
+time moment = 215
+linear model = 16844
+nonlinear model = 16797.6
+
+time moment = 216
+linear model = 17076.3
+nonlinear model = 17028.3
+
+time moment = 217
+linear model = 17310.8
+nonlinear model = 17261.2
+
+time moment = 218
+linear model = 17547.4
+nonlinear model = 17496.3
+
+time moment = 219
+linear model = 17786.2
+nonlinear model = 17733.3
+
+time moment = 220
+linear model = 18027.1
+nonlinear model = 17972.5
+
+time moment = 221
+linear model = 18270.2
+nonlinear model = 18213.9
+
+time moment = 222
+linear model = 18515.4
+nonlinear model = 18457.2
+
+time moment = 223
+linear model = 18762.9
+nonlinear model = 18702.9
+
+time moment = 224
+linear model = 19012.5
+nonlinear model = 18950.7
+
+time moment = 225
+linear model = 19264.4
+nonlinear model = 19200.5
+
+time moment = 226
+linear model = 19518.4
+nonlinear model = 19452.6
+
+time moment = 227
+linear model = 19774.7
+nonlinear model = 19706.8
+
+time moment = 228
+linear model = 20033.3
+nonlinear model = 19963.2
+
+time moment = 229
+linear model = 20294.1
+nonlinear model = 20221.8
+
+time moment = 230
+linear model = 20557.1
+nonlinear model = 20482.7
+
+time moment = 231
+linear model = 20822.4
+nonlinear model = 20745.6
+
+time moment = 232
+linear model = 21090
+nonlinear model = 21010.9
+
+time moment = 233
+linear model = 21359.9
+nonlinear model = 21278.3
+
+time moment = 234
+linear model = 21632
+nonlinear model = 21548
+
+time moment = 235
+linear model = 21906.5
+nonlinear model = 21820
+
+time moment = 236
+linear model = 22183.3
+nonlinear model = 22094.1
+
+time moment = 237
+linear model = 22462.4
+nonlinear model = 22370.6
+
+time moment = 238
+linear model = 22743.8
+nonlinear model = 22649.3
+
+time moment = 239
+linear model = 23027.6
+nonlinear model = 22930.2
+
+time moment = 240
+linear model = 23313.7
+nonlinear model = 23213.5
+
+time moment = 241
+linear model = 23602.2
+nonlinear model = 23499.1
+
+time moment = 242
+linear model = 23893.1
+nonlinear model = 23786.9
+
+time moment = 243
+linear model = 24186.3
+nonlinear model = 24077.1
+
+time moment = 244
+linear model = 24482
+nonlinear model = 24369.5
+
+time moment = 245
+linear model = 24780
+nonlinear model = 24664.3
+
+time moment = 246
+linear model = 25080.5
+nonlinear model = 24961.5
+
+time moment = 247
+linear model = 25383.4
+nonlinear model = 25260.9
+
+time moment = 248
+linear model = 25688.7
+nonlinear model = 25562.8
+
+time moment = 249
+linear model = 25996.4
+nonlinear model = 25867
+
+time moment = 250
+linear model = 26306.6
+nonlinear model = 26173.5
+
+time moment = 251
+linear model = 26619.3
+nonlinear model = 26482.5
+
+time moment = 252
+linear model = 26934.4
+nonlinear model = 26793.7
+
+time moment = 253
+linear model = 27252
+nonlinear model = 27107.4
+
+time moment = 254
+linear model = 27572.1
+nonlinear model = 27423.5
+
+time moment = 255
+linear model = 27894.7
+nonlinear model = 27741.9
+
+time moment = 256
+linear model = 28219.8
+nonlinear model = 28062.9
+
+time moment = 257
+linear model = 28547.5
+nonlinear model = 28386.1
+
+time moment = 258
+linear model = 28877.6
+nonlinear model = 28711.9
+
+time moment = 259
+linear model = 29210.3
+nonlinear model = 29040.1
+
+time moment = 260
+linear model = 29545.6
+nonlinear model = 29370.7
+
+time moment = 261
+linear model = 29883.4
+nonlinear model = 29703.8
+
+time moment = 262
+linear model = 30223.7
+nonlinear model = 30039.3
+
+time moment = 263
+linear model = 30566.7
+nonlinear model = 30377.4
+
+time moment = 264
+linear model = 30912.2
+nonlinear model = 30717.8
+
+time moment = 265
+linear model = 31260.3
+nonlinear model = 31060.7
+
+time moment = 266
+linear model = 31611.1
+nonlinear model = 31406.2
+
+time moment = 267
+linear model = 31964.4
+nonlinear model = 31754.1
+
+time moment = 268
+linear model = 32320.4
+nonlinear model = 32104.6
+
+time moment = 269
+linear model = 32679
+nonlinear model = 32457.5
+
+time moment = 270
+linear model = 33040.2
+nonlinear model = 32813
+
+time moment = 271
+linear model = 33404.1
+nonlinear model = 33171.1
+
+time moment = 272
+linear model = 33770.7
+nonlinear model = 33531.5
+
+time moment = 273
+linear model = 34140
+nonlinear model = 33894.7
+
+time moment = 274
+linear model = 34511.9
+nonlinear model = 34260.3
+
+time moment = 275
+linear model = 34886.5
+nonlinear model = 34628.5
+
+time moment = 276
+linear model = 35263.8
+nonlinear model = 34999.2
+
+time moment = 277
+linear model = 35643.9
+nonlinear model = 35372.6
+
+time moment = 278
+linear model = 36026.6
+nonlinear model = 35748.5
+
+time moment = 279
+linear model = 36412.1
+nonlinear model = 36126.9
+
+time moment = 280
+linear model = 36800.4
+nonlinear model = 36508.1
+
+time moment = 281
+linear model = 37191.4
+nonlinear model = 36891.7
+
+time moment = 282
+linear model = 37585.1
+nonlinear model = 37278
+
+time moment = 283
+linear model = 37981.6
+nonlinear model = 37666.9
+
+time moment = 284
+linear model = 38380.9
+nonlinear model = 38058.4
+
+time moment = 285
+linear model = 38783
+nonlinear model = 38452.5
+
+time moment = 286
+linear model = 39187.9
+nonlinear model = 38849.3
+
+time moment = 287
+linear model = 39595.6
+nonlinear model = 39248.8
+
+time moment = 288
+linear model = 40006.1
+nonlinear model = 39650.8
+
+time moment = 289
+linear model = 40419.5
+nonlinear model = 40055.6
+
+time moment = 290
+linear model = 40835.7
+nonlinear model = 40462.9
+
+time moment = 291
+linear model = 41254.7
+nonlinear model = 40873
+
+time moment = 292
+linear model = 41676.6
+nonlinear model = 41285.7
+
+time moment = 293
+linear model = 42101.4
+nonlinear model = 41701.1
+
+time moment = 294
+linear model = 42529
+nonlinear model = 42119.2
+
+time moment = 295
+linear model = 42959.6
+nonlinear model = 42540
+
+time moment = 296
+linear model = 43393
+nonlinear model = 42963.5
+
+time moment = 297
+linear model = 43829.3
+nonlinear model = 43389.7
+
+time moment = 298
+linear model = 44268.6
+nonlinear model = 43818.6
+
+time moment = 299
+linear model = 44710.8
+nonlinear model = 44250.2
+
+time moment = 300
+linear model = 45155.9
+nonlinear model = 44684.7
+
+time moment = 301
+linear model = 45604
+nonlinear model = 45121.7
+
+time moment = 302
+linear model = 46055
+nonlinear model = 45561.6
+
+time moment = 303
+linear model = 46509
+nonlinear model = 46004.1
+
+time moment = 304
+linear model = 46965.9
+nonlinear model = 46449.5
+
+time moment = 305
+linear model = 47425.9
+nonlinear model = 46897.5
+
+time moment = 306
+linear model = 47888.8
+nonlinear model = 47348.5
+
+time moment = 307
+linear model = 48354.8
+nonlinear model = 47802
+
+time moment = 308
+linear model = 48823.7
+nonlinear model = 48258.5
+
+time moment = 309
+linear model = 49295.7
+nonlinear model = 48717.6
+
+time moment = 310
+linear model = 49770.7
+nonlinear model = 49179.6
+
+time moment = 311
+linear model = 50248.8
+nonlinear model = 49644.4
+
+time moment = 312
+linear model = 50729.9
+nonlinear model = 50112
+
+time moment = 313
+linear model = 51214.1
+nonlinear model = 50582.3
+
+time moment = 314
+linear model = 51701.3
+nonlinear model = 51055.5
+
+time moment = 315
+linear model = 52191.7
+nonlinear model = 51531.5
+
+time moment = 316
+linear model = 52685.1
+nonlinear model = 52010.3
+
+time moment = 317
+linear model = 53181.6
+nonlinear model = 52492
+
+time moment = 318
+linear model = 53681.3
+nonlinear model = 52976.5
+
+time moment = 319
+linear model = 54184
+nonlinear model = 53463.8
+
+time moment = 320
+linear model = 54689.9
+nonlinear model = 53954
+
+time moment = 321
+linear model = 55198.9
+nonlinear model = 54447
+
+time moment = 322
+linear model = 55711.1
+nonlinear model = 54942.9
+
+time moment = 323
+linear model = 56226.5
+nonlinear model = 55441.6
+
+time moment = 324
+linear model = 56745
+nonlinear model = 55943.2
+
+time moment = 325
+linear model = 57266.7
+nonlinear model = 56447.7
+
+time moment = 326
+linear model = 57791.6
+nonlinear model = 56955
+
+time moment = 327
+linear model = 58319.6
+nonlinear model = 57465.3
+
+time moment = 328
+linear model = 58850.9
+nonlinear model = 57978.4
+
+time moment = 329
+linear model = 59385.4
+nonlinear model = 58494.4
+
+time moment = 330
+linear model = 59923.2
+nonlinear model = 59013.3
+
+time moment = 331
+linear model = 60464.1
+nonlinear model = 59535.1
+
+time moment = 332
+linear model = 61008.4
+nonlinear model = 60059.9
+
+time moment = 333
+linear model = 61555.8
+nonlinear model = 60587.4
+
+time moment = 334
+linear model = 62106.6
+nonlinear model = 61118
+
+time moment = 335
+linear model = 62660.6
+nonlinear model = 61651.4
+
+time moment = 336
+linear model = 63217.9
+nonlinear model = 62187.9
+
+time moment = 337
+linear model = 63778.5
+nonlinear model = 62727.1
+
+time moment = 338
+linear model = 64342.4
+nonlinear model = 63269.5
+
+time moment = 339
+linear model = 64909.7
+nonlinear model = 63814.6
+
+time moment = 340
+linear model = 65480.2
+nonlinear model = 64362.8
+
+time moment = 341
+linear model = 66054.1
+nonlinear model = 64913.8
+
+time moment = 342
+linear model = 66631.3
+nonlinear model = 65467.9
+
+time moment = 343
+linear model = 67211.9
+nonlinear model = 66024.8
+
+time moment = 344
+linear model = 67795.9
+nonlinear model = 66584.8
+
+time moment = 345
+linear model = 68383.2
+nonlinear model = 67147.7
+
+time moment = 346
+linear model = 68973.9
+nonlinear model = 67713.6
+
+time moment = 347
+linear model = 69568
+nonlinear model = 68282.4
+
+time moment = 348
+linear model = 70165.5
+nonlinear model = 68854.2
+
+time moment = 349
+linear model = 70766.4
+nonlinear model = 69429
+
+time moment = 350
+linear model = 71370.8
+nonlinear model = 70006.8
+
+time moment = 351
+linear model = 71978.5
+nonlinear model = 70587.6
+
+time moment = 352
+linear model = 72589.8
+nonlinear model = 71171.3
+
+time moment = 353
+linear model = 73204.4
+nonlinear model = 71758.2
+
+time moment = 354
+linear model = 73822.6
+nonlinear model = 72347.8
+
+time moment = 355
+linear model = 74444.2
+nonlinear model = 72940.7
+
+time moment = 356
+linear model = 75069.2
+nonlinear model = 73536.4
+
+time moment = 357
+linear model = 75697.8
+nonlinear model = 74135.2
+
+time moment = 358
+linear model = 76329.9
+nonlinear model = 74736.9
+
+time moment = 359
+linear model = 76965.5
+nonlinear model = 75341.7
+
+time moment = 360
+linear model = 77604.6
+nonlinear model = 75949.6
+
+time moment = 361
+linear model = 78247.2
+nonlinear model = 76560.4
+
+time moment = 362
+linear model = 78893.4
+nonlinear model = 77174.3
+
+time moment = 363
+linear model = 79543.1
+nonlinear model = 77791.1
+
+time moment = 364
+linear model = 80196.4
+nonlinear model = 78411.1
+
+time moment = 365
+linear model = 80853.2
+nonlinear model = 79034
+
+time moment = 366
+linear model = 81513.7
+nonlinear model = 79660
+
+time moment = 367
+linear model = 82177.7
+nonlinear model = 80289.1
+
+time moment = 368
+linear model = 82845.3
+nonlinear model = 80921.1
+
+time moment = 369
+linear model = 83516.5
+nonlinear model = 81556.3
+
+time moment = 370
+linear model = 84191.3
+nonlinear model = 82194.3
+
+time moment = 371
+linear model = 84869.8
+nonlinear model = 82835.6
+
+time moment = 372
+linear model = 85551.9
+nonlinear model = 83479.8
+
+time moment = 373
+linear model = 86237.7
+nonlinear model = 84127.1
+
+time moment = 374
+linear model = 86927.1
+nonlinear model = 84777.6
+
+time moment = 375
+linear model = 87620.1
+nonlinear model = 85430.9
+
+time moment = 376
+linear model = 88316.9
+nonlinear model = 86087.5
+
+time moment = 377
+linear model = 89017.3
+nonlinear model = 86747
+
+time moment = 378
+linear model = 89721.4
+nonlinear model = 87409.6
+
+time moment = 379
+linear model = 90429.3
+nonlinear model = 88075.3
+
+time moment = 380
+linear model = 91140.8
+nonlinear model = 88744
+
+time moment = 381
+linear model = 91856.1
+nonlinear model = 89415.9
+
+time moment = 382
+linear model = 92575.1
+nonlinear model = 90090.7
+
+time moment = 383
+linear model = 93297.8
+nonlinear model = 90768.7
+
+time moment = 384
+linear model = 94024.3
+nonlinear model = 91449.7
+
+time moment = 385
+linear model = 94754.6
+nonlinear model = 92133.8
+
+time moment = 386
+linear model = 95488.6
+nonlinear model = 92821.1
+
+time moment = 387
+linear model = 96226.4
+nonlinear model = 93511.3
+
+time moment = 388
+linear model = 96968
+nonlinear model = 94204.7
+
+time moment = 389
+linear model = 97713.5
+nonlinear model = 94901.1
+
+time moment = 390
+linear model = 98462.7
+nonlinear model = 95600.6
+
+time moment = 391
+linear model = 99215.7
+nonlinear model = 96303.2
+
+time moment = 392
+linear model = 99972.6
+nonlinear model = 97008.8
+
+time moment = 393
+linear model = 100733
+nonlinear model = 97717.7
+
+time moment = 394
+linear model = 101498
+nonlinear model = 98429.5
+
+time moment = 395
+linear model = 102266
+nonlinear model = 99144.4
+
+time moment = 396
+linear model = 103039
+nonlinear model = 99862.5
+
+time moment = 397
+linear model = 103815
+nonlinear model = 100584
+
+time moment = 398
+linear model = 104595
+nonlinear model = 101308
+
+time moment = 399
+linear model = 105379
+nonlinear model = 102035
+
+time moment = 400
+linear model = 106167
+nonlinear model = 102765
+
+time moment = 401
+linear model = 106958
+nonlinear model = 103499
+
+time moment = 402
+linear model = 107754
+nonlinear model = 104236
+
+time moment = 403
+linear model = 108554
+nonlinear model = 104975
+
+time moment = 404
+linear model = 109357
+nonlinear model = 105718
+
+time moment = 405
+linear model = 110165
+nonlinear model = 106464
+
+time moment = 406
+linear model = 110977
+nonlinear model = 107213
+
+time moment = 407
+linear model = 111792
+nonlinear model = 107965
+
+time moment = 408
+linear model = 112612
+nonlinear model = 108720
+
+time moment = 409
+linear model = 113435
+nonlinear model = 109478
+
+time moment = 410
+linear model = 114263
+nonlinear model = 110239
+
+time moment = 411
+linear model = 115094
+nonlinear model = 111004
+
+time moment = 412
+linear model = 115930
+nonlinear model = 111771
+
+time moment = 413
+linear model = 116769
+nonlinear model = 112542
+
+time moment = 414
+linear model = 117613
+nonlinear model = 113315
+
+time moment = 415
+linear model = 118461
+nonlinear model = 114092
+
+time moment = 416
+linear model = 119312
+nonlinear model = 114872
+
+time moment = 417
+linear model = 120168
+nonlinear model = 115655
+
+time moment = 418
+linear model = 121028
+nonlinear model = 116441
+
+time moment = 419
+linear model = 121892
+nonlinear model = 117230
+
+time moment = 420
+linear model = 122760
+nonlinear model = 118022
+
+time moment = 421
+linear model = 123632
+nonlinear model = 118817
+
+time moment = 422
+linear model = 124509
+nonlinear model = 119615
+
+time moment = 423
+linear model = 125389
+nonlinear model = 120417
+
+time moment = 424
+linear model = 126274
+nonlinear model = 121221
+
+time moment = 425
+linear model = 127162
+nonlinear model = 122029
+
+time moment = 426
+linear model = 128055
+nonlinear model = 122840
+
+time moment = 427
+linear model = 128952
+nonlinear model = 123653
+
+time moment = 428
+linear model = 129854
+nonlinear model = 124470
+
+time moment = 429
+linear model = 130759
+nonlinear model = 125290
+
+time moment = 430
+linear model = 131669
+nonlinear model = 126113
+
+time moment = 431
+linear model = 132583
+nonlinear model = 126939
+
+time moment = 432
+linear model = 133501
+nonlinear model = 127768
+
+time moment = 433
+linear model = 134423
+nonlinear model = 128600
+
+time moment = 434
+linear model = 135350
+nonlinear model = 129435
+
+time moment = 435
+linear model = 136281
+nonlinear model = 130273
+
+time moment = 436
+linear model = 137216
+nonlinear model = 131114
+
+time moment = 437
+linear model = 138155
+nonlinear model = 131958
+
+time moment = 438
+linear model = 139099
+nonlinear model = 132806
+
+time moment = 439
+linear model = 140047
+nonlinear model = 133656
+
+time moment = 440
+linear model = 140999
+nonlinear model = 134510
+
+time moment = 441
+linear model = 141955
+nonlinear model = 135366
+
+time moment = 442
+linear model = 142916
+nonlinear model = 136226
+
+time moment = 443
+linear model = 143881
+nonlinear model = 137088
+
+time moment = 444
+linear model = 144851
+nonlinear model = 137954
+
+time moment = 445
+linear model = 145825
+nonlinear model = 138822
+
+time moment = 446
+linear model = 146803
+nonlinear model = 139694
+
+time moment = 447
+linear model = 147785
+nonlinear model = 140568
+
+time moment = 448
+linear model = 148772
+nonlinear model = 141446
+
+time moment = 449
+linear model = 149764
+nonlinear model = 142327
+
+time moment = 450
+linear model = 150759
+nonlinear model = 143210
+
+time moment = 451
+linear model = 151760
+nonlinear model = 144097
+
+time moment = 452
+linear model = 152764
+nonlinear model = 144987
+
+time moment = 453
+linear model = 153773
+nonlinear model = 145879
+
+time moment = 454
+linear model = 154786
+nonlinear model = 146775
+
+time moment = 455
+linear model = 155804
+nonlinear model = 147674
+
+time moment = 456
+linear model = 156827
+nonlinear model = 148575
+
+time moment = 457
+linear model = 157853
+nonlinear model = 149480
+
+time moment = 458
+linear model = 158885
+nonlinear model = 150387
+
+time moment = 459
+linear model = 159920
+nonlinear model = 151298
+
+time moment = 460
+linear model = 160961
+nonlinear model = 152211
+
+time moment = 461
+linear model = 162005
+nonlinear model = 153128
+
+time moment = 462
+linear model = 163054
+nonlinear model = 154047
+
+time moment = 463
+linear model = 164108
+nonlinear model = 154970
+
+time moment = 464
+linear model = 165167
+nonlinear model = 155895
+
+time moment = 465
+linear model = 166229
+nonlinear model = 156823
+
+time moment = 466
+linear model = 167297
+nonlinear model = 157755
+
+time moment = 467
+linear model = 168369
+nonlinear model = 158689
+
+time moment = 468
+linear model = 169445
+nonlinear model = 159626
+
+time moment = 469
+linear model = 170526
+nonlinear model = 160566
+
+time moment = 470
+linear model = 171612
+nonlinear model = 161509
+
+time moment = 471
+linear model = 172702
+nonlinear model = 162455
+
+time moment = 472
+linear model = 173797
+nonlinear model = 163404
+
+time moment = 473
+linear model = 174897
+nonlinear model = 164355
+
+time moment = 474
+linear model = 176001
+nonlinear model = 165310
+
+time moment = 475
+linear model = 177110
+nonlinear model = 166267
+
+time moment = 476
+linear model = 178223
+nonlinear model = 167228
+
+time moment = 477
+linear model = 179341
+nonlinear model = 168191
+
+time moment = 478
+linear model = 180464
+nonlinear model = 169157
+
+time moment = 479
+linear model = 181591
+nonlinear model = 170126
+
+time moment = 480
+linear model = 182723
+nonlinear model = 171098
+
+time moment = 481
+linear model = 183860
+nonlinear model = 172072
+
+time moment = 482
+linear model = 185002
+nonlinear model = 173050
+
+time moment = 483
+linear model = 186148
+nonlinear model = 174030
+
+time moment = 484
+linear model = 187299
+nonlinear model = 175013
+
+time moment = 485
+linear model = 188454
+nonlinear model = 175999
+
+time moment = 486
+linear model = 189615
+nonlinear model = 176988
+
+time moment = 487
+linear model = 190780
+nonlinear model = 177980
+
+time moment = 488
+linear model = 191950
+nonlinear model = 178974
+
+time moment = 489
+linear model = 193125
+nonlinear model = 179972
+
+time moment = 490
+linear model = 194304
+nonlinear model = 180972
+
+time moment = 491
+linear model = 195489
+nonlinear model = 181975
+
+time moment = 492
+linear model = 196678
+nonlinear model = 182980
+
+time moment = 493
+linear model = 197872
+nonlinear model = 183989
+
+time moment = 494
+linear model = 199070
+nonlinear model = 185000
+
+time moment = 495
+linear model = 200274
+nonlinear model = 186014
+
+time moment = 496
+linear model = 201482
+nonlinear model = 187031
+
+time moment = 497
+linear model = 202696
+nonlinear model = 188050
+
+time moment = 498
+linear model = 203914
+nonlinear model = 189072
+
+time moment = 499
+linear model = 205137
+nonlinear model = 190097
+
+time moment = 500
+linear model = 206365
+nonlinear model = 191125
+
+time moment = 501
+linear model = 207598
+nonlinear model = 192155
+
+time moment = 502
+linear model = 208835
+nonlinear model = 193188
+
+time moment = 503
+linear model = 210078
+nonlinear model = 194224
+
+time moment = 504
+linear model = 211325
+nonlinear model = 195262
+
+time moment = 505
+linear model = 212578
+nonlinear model = 196304
+
+time moment = 506
+linear model = 213835
+nonlinear model = 197347
+
+time moment = 507
+linear model = 215098
+nonlinear model = 198394
+
+time moment = 508
+linear model = 216365
+nonlinear model = 199443
+
+time moment = 509
+linear model = 217637
+nonlinear model = 200495
+
+time moment = 510
+linear model = 218914
+nonlinear model = 201549
+
+time moment = 511
+linear model = 220197
+nonlinear model = 202606
+
+time moment = 512
+linear model = 221484
+nonlinear model = 203666
+
+time moment = 513
+linear model = 222776
+nonlinear model = 204728
+
+time moment = 514
+linear model = 224073
+nonlinear model = 205793
+
+time moment = 515
+linear model = 225376
+nonlinear model = 206861
+
+time moment = 516
+linear model = 226683
+nonlinear model = 207931
+
+time moment = 517
+linear model = 227995
+nonlinear model = 209003
+
+time moment = 518
+linear model = 229313
+nonlinear model = 210079
+
+time moment = 519
+linear model = 230635
+nonlinear model = 211156
+
+time moment = 520
+linear model = 231963
+nonlinear model = 212237
+
+time moment = 521
+linear model = 233296
+nonlinear model = 213320
+
+time moment = 522
+linear model = 234633
+nonlinear model = 214405
+
+time moment = 523
+linear model = 235976
+nonlinear model = 215493
+
+time moment = 524
+linear model = 237324
+nonlinear model = 216583
+
+time moment = 525
+linear model = 238677
+nonlinear model = 217676
+
+time moment = 526
+linear model = 240036
+nonlinear model = 218772
+
+time moment = 527
+linear model = 241399
+nonlinear model = 219870
+
+time moment = 528
+linear model = 242768
+nonlinear model = 220970
+
+time moment = 529
+linear model = 244141
+nonlinear model = 222073
+
+time moment = 530
+linear model = 245520
+nonlinear model = 223178
+
+time moment = 531
+linear model = 246904
+nonlinear model = 224286
+
+time moment = 532
+linear model = 248293
+nonlinear model = 225397
+
+time moment = 533
+linear model = 249688
+nonlinear model = 226509
+
+time moment = 534
+linear model = 251088
+nonlinear model = 227624
+
+time moment = 535
+linear model = 252492
+nonlinear model = 228742
+
+time moment = 536
+linear model = 253903
+nonlinear model = 229861
+
+time moment = 537
+linear model = 255318
+nonlinear model = 230984
+
+time moment = 538
+linear model = 256739
+nonlinear model = 232108
+
+time moment = 539
+linear model = 258164
+nonlinear model = 233235
+
+time moment = 540
+linear model = 259596
+nonlinear model = 234365
+
+time moment = 541
+linear model = 261032
+nonlinear model = 235496
+
+time moment = 542
+linear model = 262474
+nonlinear model = 236630
+
+time moment = 543
+linear model = 263921
+nonlinear model = 237767
+
+time moment = 544
+linear model = 265373
+nonlinear model = 238906
+
+time moment = 545
+linear model = 266831
+nonlinear model = 240046
+
+time moment = 546
+linear model = 268294
+nonlinear model = 241190
+
+time moment = 547
+linear model = 269762
+nonlinear model = 242335
+
+time moment = 548
+linear model = 271236
+nonlinear model = 243483
+
+time moment = 549
+linear model = 272715
+nonlinear model = 244633
+
+time moment = 550
+linear model = 274199
+nonlinear model = 245785
+
+time moment = 551
+linear model = 275689
+nonlinear model = 246940
+
+time moment = 552
+linear model = 277184
+nonlinear model = 248097
+
+time moment = 553
+linear model = 278685
+nonlinear model = 249255
+
+time moment = 554
+linear model = 280191
+nonlinear model = 250416
+
+time moment = 555
+linear model = 281702
+nonlinear model = 251580
+
+time moment = 556
+linear model = 283219
+nonlinear model = 252745
+
+time moment = 557
+linear model = 284741
+nonlinear model = 253913
+
+time moment = 558
+linear model = 286269
+nonlinear model = 255083
+
+time moment = 559
+linear model = 287802
+nonlinear model = 256255
+
+time moment = 560
+linear model = 289341
+nonlinear model = 257429
+
+time moment = 561
+linear model = 290885
+nonlinear model = 258605
+
+time moment = 562
+linear model = 292434
+nonlinear model = 259783
+
+time moment = 563
+linear model = 293989
+nonlinear model = 260964
+
+time moment = 564
+linear model = 295550
+nonlinear model = 262146
+
+time moment = 565
+linear model = 297116
+nonlinear model = 263331
+
+time moment = 566
+linear model = 298688
+nonlinear model = 264518
+
+time moment = 567
+linear model = 300265
+nonlinear model = 265706
+
+time moment = 568
+linear model = 301848
+nonlinear model = 266897
+
+time moment = 569
+linear model = 303436
+nonlinear model = 268090
+
+time moment = 570
+linear model = 305030
+nonlinear model = 269284
+
+time moment = 571
+linear model = 306629
+nonlinear model = 270481
+
+time moment = 572
+linear model = 308234
+nonlinear model = 271680
+
+time moment = 573
+linear model = 309845
+nonlinear model = 272881
+
+time moment = 574
+linear model = 311461
+nonlinear model = 274083
+
+time moment = 575
+linear model = 313082
+nonlinear model = 275288
+
+time moment = 576
+linear model = 314710
+nonlinear model = 276495
+
+time moment = 577
+linear model = 316343
+nonlinear model = 277703
+
+time moment = 578
+linear model = 317982
+nonlinear model = 278913
+
+time moment = 579
+linear model = 319626
+nonlinear model = 280125
+
+time moment = 580
+linear model = 321276
+nonlinear model = 281340
+
+time moment = 581
+linear model = 322932
+nonlinear model = 282556
+
+time moment = 582
+linear model = 324593
+nonlinear model = 283774
+
+time moment = 583
+linear model = 326260
+nonlinear model = 284994
+
+time moment = 584
+linear model = 327933
+nonlinear model = 286215
+
+time moment = 585
+linear model = 329611
+nonlinear model = 287439
+
+time moment = 586
+linear model = 331295
+nonlinear model = 288664
+
+time moment = 587
+linear model = 332985
+nonlinear model = 289891
+
+time moment = 588
+linear model = 334681
+nonlinear model = 291119
+
+time moment = 589
+linear model = 336382
+nonlinear model = 292350
+
+time moment = 590
+linear model = 338089
+nonlinear model = 293582
+
+time moment = 591
+linear model = 339802
+nonlinear model = 294816
+
+time moment = 592
+linear model = 341521
+nonlinear model = 296052
+
+time moment = 593
+linear model = 343245
+nonlinear model = 297290
+
+time moment = 594
+linear model = 344975
+nonlinear model = 298529
+
+time moment = 595
+linear model = 346711
+nonlinear model = 299770
+
+time moment = 596
+linear model = 348453
+nonlinear model = 301013
+
+time moment = 597
+linear model = 350201
+nonlinear model = 302257
+
+time moment = 598
+linear model = 351955
+nonlinear model = 303503
+
+time moment = 599
+linear model = 353714
+nonlinear model = 304750
+
+time moment = 600
+linear model = 355479
+nonlinear model = 305999
+
+time moment = 601
+linear model = 357250
+nonlinear model = 307250
+
+time moment = 602
+linear model = 359027
+nonlinear model = 308502
+
+time moment = 603
+linear model = 360810
+nonlinear model = 309756
+
+time moment = 604
+linear model = 362599
+nonlinear model = 311012
+
+time moment = 605
+linear model = 364394
+nonlinear model = 312269
+
+time moment = 606
+linear model = 366194
+nonlinear model = 313528
+
+time moment = 607
+linear model = 368001
+nonlinear model = 314788
+
+time moment = 608
+linear model = 369813
+nonlinear model = 316050
+
+time moment = 609
+linear model = 371631
+nonlinear model = 317313
+
+time moment = 610
+linear model = 373456
+nonlinear model = 318578
+
+time moment = 611
+linear model = 375286
+nonlinear model = 319844
+
+time moment = 612
+linear model = 377122
+nonlinear model = 321112
+
+time moment = 613
+linear model = 378965
+nonlinear model = 322381
+
+time moment = 614
+linear model = 380813
+nonlinear model = 323651
+
+time moment = 615
+linear model = 382667
+nonlinear model = 324923
+
+time moment = 616
+linear model = 384527
+nonlinear model = 326196
+
+time moment = 617
+linear model = 386393
+nonlinear model = 327471
+
+time moment = 618
+linear model = 388266
+nonlinear model = 328747
+
+time moment = 619
+linear model = 390144
+nonlinear model = 330025
+
+time moment = 620
+linear model = 392028
+nonlinear model = 331303
+
+time moment = 621
+linear model = 393919
+nonlinear model = 332584
+
+time moment = 622
+linear model = 395815
+nonlinear model = 333865
+
+time moment = 623
+linear model = 397718
+nonlinear model = 335148
+
+time moment = 624
+linear model = 399627
+nonlinear model = 336432
+
+time moment = 625
+linear model = 401541
+nonlinear model = 337718
+
+time moment = 626
+linear model = 403462
+nonlinear model = 339004
+
+time moment = 627
+linear model = 405389
+nonlinear model = 340292
+
+time moment = 628
+linear model = 407323
+nonlinear model = 341582
+
+time moment = 629
+linear model = 409262
+nonlinear model = 342872
+
+time moment = 630
+linear model = 411207
+nonlinear model = 344164
+
+time moment = 631
+linear model = 413159
+nonlinear model = 345457
+
+time moment = 632
+linear model = 415117
+nonlinear model = 346751
+
+time moment = 633
+linear model = 417080
+nonlinear model = 348047
+
+time moment = 634
+linear model = 419051
+nonlinear model = 349343
+
+time moment = 635
+linear model = 421027
+nonlinear model = 350641
+
+time moment = 636
+linear model = 423009
+nonlinear model = 351940
+
+time moment = 637
+linear model = 424998
+nonlinear model = 353240
+
+time moment = 638
+linear model = 426993
+nonlinear model = 354541
+
+time moment = 639
+linear model = 428994
+nonlinear model = 355843
+
+time moment = 640
+linear model = 431002
+nonlinear model = 357146
+
+time moment = 641
+linear model = 433015
+nonlinear model = 358451
+
+time moment = 642
+linear model = 435035
+nonlinear model = 359756
+
+time moment = 643
+linear model = 437061
+nonlinear model = 361062
+
+time moment = 644
+linear model = 439094
+nonlinear model = 362370
+
+time moment = 645
+linear model = 441133
+nonlinear model = 363678
+
+time moment = 646
+linear model = 443178
+nonlinear model = 364988
+
+time moment = 647
+linear model = 445229
+nonlinear model = 366298
+
+time moment = 648
+linear model = 447287
+nonlinear model = 367610
+
+time moment = 649
+linear model = 449351
+nonlinear model = 368922
+
+time moment = 650
+linear model = 451422
+nonlinear model = 370235
+
+time moment = 651
+linear model = 453498
+nonlinear model = 371550
+
+time moment = 652
+linear model = 455581
+nonlinear model = 372865
+
+time moment = 653
+linear model = 457671
+nonlinear model = 374181
+
+time moment = 654
+linear model = 459767
+nonlinear model = 375498
+
+time moment = 655
+linear model = 461869
+nonlinear model = 376816
+
+time moment = 656
+linear model = 463978
+nonlinear model = 378135
+
+time moment = 657
+linear model = 466093
+nonlinear model = 379454
+
+time moment = 658
+linear model = 468214
+nonlinear model = 380775
+
+time moment = 659
+linear model = 470342
+nonlinear model = 382096
+
+time moment = 660
+linear model = 472477
+nonlinear model = 383418
+
+time moment = 661
+linear model = 474617
+nonlinear model = 384741
+
+time moment = 662
+linear model = 476765
+nonlinear model = 386065
+
+time moment = 663
+linear model = 478918
+nonlinear model = 387389
+
+time moment = 664
+linear model = 481079
+nonlinear model = 388714
+
+time moment = 665
+linear model = 483245
+nonlinear model = 390040
+
+time moment = 666
+linear model = 485419
+nonlinear model = 391367
+
+time moment = 667
+linear model = 487598
+nonlinear model = 392694
+
+time moment = 668
+linear model = 489784
+nonlinear model = 394022
+
+time moment = 669
+linear model = 491977
+nonlinear model = 395351
+
+time moment = 670
+linear model = 494177
+nonlinear model = 396680
+
+time moment = 671
+linear model = 496382
+nonlinear model = 398010
+
+time moment = 672
+linear model = 498595
+nonlinear model = 399341
+
+time moment = 673
+linear model = 500814
+nonlinear model = 400672
+
+time moment = 674
+linear model = 503039
+nonlinear model = 402004
+
+time moment = 675
+linear model = 505271
+nonlinear model = 403337
+
+time moment = 676
+linear model = 507510
+nonlinear model = 404670
+
+time moment = 677
+linear model = 509755
+nonlinear model = 406004
+
+time moment = 678
+linear model = 512007
+nonlinear model = 407338
+
+time moment = 679
+linear model = 514266
+nonlinear model = 408673
+
+time moment = 680
+linear model = 516531
+nonlinear model = 410009
+
+time moment = 681
+linear model = 518803
+nonlinear model = 411345
+
+time moment = 682
+linear model = 521081
+nonlinear model = 412682
+
+time moment = 683
+linear model = 523367
+nonlinear model = 414019
+
+time moment = 684
+linear model = 525658
+nonlinear model = 415356
+
+time moment = 685
+linear model = 527957
+nonlinear model = 416695
+
+time moment = 686
+linear model = 530262
+nonlinear model = 418033
+
+time moment = 687
+linear model = 532574
+nonlinear model = 419372
+
+time moment = 688
+linear model = 534893
+nonlinear model = 420712
+
+time moment = 689
+linear model = 537218
+nonlinear model = 422052
+
+time moment = 690
+linear model = 539550
+nonlinear model = 423392
+
+time moment = 691
+linear model = 541889
+nonlinear model = 424733
+
+time moment = 692
+linear model = 544235
+nonlinear model = 426074
+
+time moment = 693
+linear model = 546587
+nonlinear model = 427415
+
+time moment = 694
+linear model = 548946
+nonlinear model = 428757
+
+time moment = 695
+linear model = 551312
+nonlinear model = 430099
+
+time moment = 696
+linear model = 553685
+nonlinear model = 431442
+
+time moment = 697
+linear model = 556064
+nonlinear model = 432785
+
+time moment = 698
+linear model = 558450
+nonlinear model = 434129
+
+time moment = 699
+linear model = 560843
+nonlinear model = 435472
+
+time moment = 700
+linear model = 563243
+nonlinear model = 436816
+
+time moment = 701
+linear model = 565650
+nonlinear model = 438160
+
+time moment = 702
+linear model = 568064
+nonlinear model = 439505
+
+time moment = 703
+linear model = 570484
+nonlinear model = 440850
+
+time moment = 704
+linear model = 572912
+nonlinear model = 442195
+
+time moment = 705
+linear model = 575346
+nonlinear model = 443540
+
+time moment = 706
+linear model = 577787
+nonlinear model = 444885
+
+time moment = 707
+linear model = 580235
+nonlinear model = 446231
+
+time moment = 708
+linear model = 582690
+nonlinear model = 447577
+
+time moment = 709
+linear model = 585152
+nonlinear model = 448923
+
+time moment = 710
+linear model = 587620
+nonlinear model = 450270
+
+time moment = 711
+linear model = 590096
+nonlinear model = 451616
+
+time moment = 712
+linear model = 592579
+nonlinear model = 452963
+
+time moment = 713
+linear model = 595068
+nonlinear model = 454309
+
+time moment = 714
+linear model = 597565
+nonlinear model = 455656
+
+time moment = 715
+linear model = 600068
+nonlinear model = 457003
+
+time moment = 716
+linear model = 602579
+nonlinear model = 458350
+
+time moment = 717
+linear model = 605096
+nonlinear model = 459698
+
+time moment = 718
+linear model = 607621
+nonlinear model = 461045
+
+time moment = 719
+linear model = 610152
+nonlinear model = 462393
+
+time moment = 720
+linear model = 612691
+nonlinear model = 463740
+
+time moment = 721
+linear model = 615237
+nonlinear model = 465088
+
+time moment = 722
+linear model = 617789
+nonlinear model = 466435
+
+time moment = 723
+linear model = 620349
+nonlinear model = 467783
+
+time moment = 724
+linear model = 622916
+nonlinear model = 469131
+
+time moment = 725
+linear model = 625489
+nonlinear model = 470478
+
+time moment = 726
+linear model = 628070
+nonlinear model = 471826
+
+time moment = 727
+linear model = 630658
+nonlinear model = 473174
+
+time moment = 728
+linear model = 633253
+nonlinear model = 474522
+
+time moment = 729
+linear model = 635856
+nonlinear model = 475869
+
+time moment = 730
+linear model = 638465
+nonlinear model = 477217
+
+time moment = 731
+linear model = 641081
+nonlinear model = 478564
+
+time moment = 732
+linear model = 643705
+nonlinear model = 479912
+
+time moment = 733
+linear model = 646336
+nonlinear model = 481259
+
+time moment = 734
+linear model = 648974
+nonlinear model = 482607
+
+time moment = 735
+linear model = 651619
+nonlinear model = 483954
+
+time moment = 736
+linear model = 654271
+nonlinear model = 485301
+
+time moment = 737
+linear model = 656930
+nonlinear model = 486648
+
+time moment = 738
+linear model = 659597
+nonlinear model = 487995
+
+time moment = 739
+linear model = 662271
+nonlinear model = 489342
+
+time moment = 740
+linear model = 664952
+nonlinear model = 490689
+
+time moment = 741
+linear model = 667640
+nonlinear model = 492035
+
+time moment = 742
+linear model = 670336
+nonlinear model = 493382
+
+time moment = 743
+linear model = 673039
+nonlinear model = 494728
+
+time moment = 744
+linear model = 675749
+nonlinear model = 496074
+
+time moment = 745
+linear model = 678466
+nonlinear model = 497420
+
+time moment = 746
+linear model = 681191
+nonlinear model = 498766
+
+time moment = 747
+linear model = 683922
+nonlinear model = 500111
+
+time moment = 748
+linear model = 686662
+nonlinear model = 501456
+
+time moment = 749
+linear model = 689408
+nonlinear model = 502801
+
+time moment = 750
+linear model = 692162
+nonlinear model = 504146
+
+time moment = 751
+linear model = 694923
+nonlinear model = 505491
+
+time moment = 752
+linear model = 697692
+nonlinear model = 506835
+
+time moment = 753
+linear model = 700467
+nonlinear model = 508179
+
+time moment = 754
+linear model = 703250
+nonlinear model = 509523
+
+time moment = 755
+linear model = 706041
+nonlinear model = 510866
+
+time moment = 756
+linear model = 708839
+nonlinear model = 512209
+
+time moment = 757
+linear model = 711644
+nonlinear model = 513552
+
+time moment = 758
+linear model = 714457
+nonlinear model = 514895
+
+time moment = 759
+linear model = 717277
+nonlinear model = 516237
+
+time moment = 760
+linear model = 720104
+nonlinear model = 517579
+
+time moment = 761
+linear model = 722939
+nonlinear model = 518921
+
+time moment = 762
+linear model = 725782
+nonlinear model = 520262
+
+time moment = 763
+linear model = 728631
+nonlinear model = 521602
+
+time moment = 764
+linear model = 731489
+nonlinear model = 522943
+
+time moment = 765
+linear model = 734353
+nonlinear model = 524283
+
+time moment = 766
+linear model = 737226
+nonlinear model = 525623
+
+time moment = 767
+linear model = 740105
+nonlinear model = 526962
+
+time moment = 768
+linear model = 742992
+nonlinear model = 528301
+
+time moment = 769
+linear model = 745887
+nonlinear model = 529640
+
+time moment = 770
+linear model = 748789
+nonlinear model = 530978
+
+time moment = 771
+linear model = 751699
+nonlinear model = 532316
+
+time moment = 772
+linear model = 754616
+nonlinear model = 533653
+
+time moment = 773
+linear model = 757541
+nonlinear model = 534990
+
+time moment = 774
+linear model = 760473
+nonlinear model = 536327
+
+time moment = 775
+linear model = 763413
+nonlinear model = 537663
+
+time moment = 776
+linear model = 766361
+nonlinear model = 538998
+
+time moment = 777
+linear model = 769316
+nonlinear model = 540334
+
+time moment = 778
+linear model = 772278
+nonlinear model = 541668
+
+time moment = 779
+linear model = 775248
+nonlinear model = 543002
+
+time moment = 780
+linear model = 778226
+nonlinear model = 544336
+
+time moment = 781
+linear model = 781212
+nonlinear model = 545669
+
+time moment = 782
+linear model = 784205
+nonlinear model = 547002
+
+time moment = 783
+linear model = 787205
+nonlinear model = 548334
+
+time moment = 784
+linear model = 790214
+nonlinear model = 549666
+
+time moment = 785
+linear model = 793230
+nonlinear model = 550997
+
+time moment = 786
+linear model = 796253
+nonlinear model = 552327
+
+time moment = 787
+linear model = 799285
+nonlinear model = 553657
+
+time moment = 788
+linear model = 802324
+nonlinear model = 554987
+
+time moment = 789
+linear model = 805370
+nonlinear model = 556316
+
+time moment = 790
+linear model = 808425
+nonlinear model = 557644
+
+time moment = 791
+linear model = 811487
+nonlinear model = 558972
+
+time moment = 792
+linear model = 814557
+nonlinear model = 560300
+
+time moment = 793
+linear model = 817634
+nonlinear model = 561626
+
+time moment = 794
+linear model = 820720
+nonlinear model = 562952
+
+time moment = 795
+linear model = 823813
+nonlinear model = 564278
+
+time moment = 796
+linear model = 826914
+nonlinear model = 565603
+
+time moment = 797
+linear model = 830022
+nonlinear model = 566927
+
+time moment = 798
+linear model = 833139
+nonlinear model = 568251
+
+time moment = 799
+linear model = 836263
+nonlinear model = 569574
+
+time moment = 800
+linear model = 839395
+nonlinear model = 570897
+
+time moment = 801
+linear model = 842535
+nonlinear model = 572218
+
+time moment = 802
+linear model = 845683
+nonlinear model = 573540
+
+time moment = 803
+linear model = 848838
+nonlinear model = 574860
+
+time moment = 804
+linear model = 852001
+nonlinear model = 576180
+
+time moment = 805
+linear model = 855173
+nonlinear model = 577500
+
+time moment = 806
+linear model = 858352
+nonlinear model = 578818
+
+time moment = 807
+linear model = 861539
+nonlinear model = 580136
+
+time moment = 808
+linear model = 864733
+nonlinear model = 581454
+
+time moment = 809
+linear model = 867936
+nonlinear model = 582770
+
+time moment = 810
+linear model = 871147
+nonlinear model = 584086
+
+time moment = 811
+linear model = 874365
+nonlinear model = 585402
+
+time moment = 812
+linear model = 877592
+nonlinear model = 586716
+
+time moment = 813
+linear model = 880826
+nonlinear model = 588030
+
+time moment = 814
+linear model = 884068
+nonlinear model = 589343
+
+time moment = 815
+linear model = 887318
+nonlinear model = 590656
+
+time moment = 816
+linear model = 890577
+nonlinear model = 591968
+
+time moment = 817
+linear model = 893843
+nonlinear model = 593279
+
+time moment = 818
+linear model = 897117
+nonlinear model = 594589
+
+time moment = 819
+linear model = 900399
+nonlinear model = 595899
+
+time moment = 820
+linear model = 903689
+nonlinear model = 597208
+
+time moment = 821
+linear model = 906987
+nonlinear model = 598516
+
+time moment = 822
+linear model = 910294
+nonlinear model = 599823
+
+time moment = 823
+linear model = 913608
+nonlinear model = 601130
+
+time moment = 824
+linear model = 916930
+nonlinear model = 602436
+
+time moment = 825
+linear model = 920260
+nonlinear model = 603741
+
+time moment = 826
+linear model = 923599
+nonlinear model = 605046
+
+time moment = 827
+linear model = 926945
+nonlinear model = 606349
+
+time moment = 828
+linear model = 930299
+nonlinear model = 607652
+
+time moment = 829
+linear model = 933662
+nonlinear model = 608955
+
+time moment = 830
+linear model = 937033
+nonlinear model = 610256
+
+time moment = 831
+linear model = 940411
+nonlinear model = 611557
+
+time moment = 832
+linear model = 943798
+nonlinear model = 612856
+
+time moment = 833
+linear model = 947193
+nonlinear model = 614156
+
+time moment = 834
+linear model = 950596
+nonlinear model = 615454
+
+time moment = 835
+linear model = 954008
+nonlinear model = 616751
+
+time moment = 836
+linear model = 957427
+nonlinear model = 618048
+
+time moment = 837
+linear model = 960855
+nonlinear model = 619344
+
+time moment = 838
+linear model = 964290
+nonlinear model = 620639
+
+time moment = 839
+linear model = 967734
+nonlinear model = 621933
+
+time moment = 840
+linear model = 971186
+nonlinear model = 623227
+
+time moment = 841
+linear model = 974647
+nonlinear model = 624519
+
+time moment = 842
+linear model = 978115
+nonlinear model = 625811
+
+time moment = 843
+linear model = 981592
+nonlinear model = 627102
+
+time moment = 844
+linear model = 985077
+nonlinear model = 628392
+
+time moment = 845
+linear model = 988570
+nonlinear model = 629682
+
+time moment = 846
+linear model = 992072
+nonlinear model = 630970
+
+time moment = 847
+linear model = 995582
+nonlinear model = 632258
+
+time moment = 848
+linear model = 999100
+nonlinear model = 633545
+
+time moment = 849
+linear model = 1.00263e+06
+nonlinear model = 634831
+
+time moment = 850
+linear model = 1.00616e+06
+nonlinear model = 636116
+
+time moment = 851
+linear model = 1.0097e+06
+nonlinear model = 637400
+
+time moment = 852
+linear model = 1.01325e+06
+nonlinear model = 638684
+
+time moment = 853
+linear model = 1.01681e+06
+nonlinear model = 639967
+
+time moment = 854
+linear model = 1.02038e+06
+nonlinear model = 641248
+
+time moment = 855
+linear model = 1.02396e+06
+nonlinear model = 642529
+
+time moment = 856
+linear model = 1.02754e+06
+nonlinear model = 643810
+
+time moment = 857
+linear model = 1.03114e+06
+nonlinear model = 645089
+
+time moment = 858
+linear model = 1.03474e+06
+nonlinear model = 646367
+
+time moment = 859
+linear model = 1.03835e+06
+nonlinear model = 647645
+
+time moment = 860
+linear model = 1.04196e+06
+nonlinear model = 648921
+
+time moment = 861
+linear model = 1.04559e+06
+nonlinear model = 650197
+
+time moment = 862
+linear model = 1.04923e+06
+nonlinear model = 651472
+
+time moment = 863
+linear model = 1.05287e+06
+nonlinear model = 652746
+
+time moment = 864
+linear model = 1.05652e+06
+nonlinear model = 654019
+
+time moment = 865
+linear model = 1.06018e+06
+nonlinear model = 655291
+
+time moment = 866
+linear model = 1.06385e+06
+nonlinear model = 656563
+
+time moment = 867
+linear model = 1.06753e+06
+nonlinear model = 657833
+
+time moment = 868
+linear model = 1.07121e+06
+nonlinear model = 659103
+
+time moment = 869
+linear model = 1.07491e+06
+nonlinear model = 660371
+
+time moment = 870
+linear model = 1.07861e+06
+nonlinear model = 661639
+
+time moment = 871
+linear model = 1.08232e+06
+nonlinear model = 662906
+
+time moment = 872
+linear model = 1.08604e+06
+nonlinear model = 664172
+
+time moment = 873
+linear model = 1.08977e+06
+nonlinear model = 665437
+
+time moment = 874
+linear model = 1.0935e+06
+nonlinear model = 666702
+
+time moment = 875
+linear model = 1.09725e+06
+nonlinear model = 667965
+
+time moment = 876
+linear model = 1.101e+06
+nonlinear model = 669227
+
+time moment = 877
+linear model = 1.10476e+06
+nonlinear model = 670489
+
+time moment = 878
+linear model = 1.10854e+06
+nonlinear model = 671750
+
+time moment = 879
+linear model = 1.11231e+06
+nonlinear model = 673009
+
+time moment = 880
+linear model = 1.1161e+06
+nonlinear model = 674268
+
+time moment = 881
+linear model = 1.1199e+06
+nonlinear model = 675526
+
+time moment = 882
+linear model = 1.1237e+06
+nonlinear model = 676783
+
+time moment = 883
+linear model = 1.12752e+06
+nonlinear model = 678039
+
+time moment = 884
+linear model = 1.13134e+06
+nonlinear model = 679295
+
+time moment = 885
+linear model = 1.13517e+06
+nonlinear model = 680549
+
+time moment = 886
+linear model = 1.13901e+06
+nonlinear model = 681802
+
+time moment = 887
+linear model = 1.14286e+06
+nonlinear model = 683055
+
+time moment = 888
+linear model = 1.14672e+06
+nonlinear model = 684306
+
+time moment = 889
+linear model = 1.15058e+06
+nonlinear model = 685557
+
+time moment = 890
+linear model = 1.15446e+06
+nonlinear model = 686807
+
+time moment = 891
+linear model = 1.15834e+06
+nonlinear model = 688056
+
+time moment = 892
+linear model = 1.16223e+06
+nonlinear model = 689304
+
+time moment = 893
+linear model = 1.16613e+06
+nonlinear model = 690550
+
+time moment = 894
+linear model = 1.17004e+06
+nonlinear model = 691797
+
+time moment = 895
+linear model = 1.17396e+06
+nonlinear model = 693042
+
+time moment = 896
+linear model = 1.17788e+06
+nonlinear model = 694286
+
+time moment = 897
+linear model = 1.18182e+06
+nonlinear model = 695529
+
+time moment = 898
+linear model = 1.18576e+06
+nonlinear model = 696772
+
+time moment = 899
+linear model = 1.18972e+06
+nonlinear model = 698013
+
+time moment = 900
+linear model = 1.19368e+06
+nonlinear model = 699254
+
+time moment = 901
+linear model = 1.19765e+06
+nonlinear model = 700493
+
+time moment = 902
+linear model = 1.20163e+06
+nonlinear model = 701732
+
+time moment = 903
+linear model = 1.20561e+06
+nonlinear model = 702970
+
+time moment = 904
+linear model = 1.20961e+06
+nonlinear model = 704207
+
+time moment = 905
+linear model = 1.21362e+06
+nonlinear model = 705443
+
+time moment = 906
+linear model = 1.21763e+06
+nonlinear model = 706678
+
+time moment = 907
+linear model = 1.22165e+06
+nonlinear model = 707912
+
+time moment = 908
+linear model = 1.22569e+06
+nonlinear model = 709145
+
+time moment = 909
+linear model = 1.22973e+06
+nonlinear model = 710377
+
+time moment = 910
+linear model = 1.23378e+06
+nonlinear model = 711609
+
+time moment = 911
+linear model = 1.23784e+06
+nonlinear model = 712839
+
+time moment = 912
+linear model = 1.2419e+06
+nonlinear model = 714068
+
+time moment = 913
+linear model = 1.24598e+06
+nonlinear model = 715297
+
+time moment = 914
+linear model = 1.25007e+06
+nonlinear model = 716525
+
+time moment = 915
+linear model = 1.25416e+06
+nonlinear model = 717751
+
+time moment = 916
+linear model = 1.25826e+06
+nonlinear model = 718977
+
+time moment = 917
+linear model = 1.26238e+06
+nonlinear model = 720202
+
+time moment = 918
+linear model = 1.2665e+06
+nonlinear model = 721426
+
+time moment = 919
+linear model = 1.27063e+06
+nonlinear model = 722649
+
+time moment = 920
+linear model = 1.27477e+06
+nonlinear model = 723871
+
+time moment = 921
+linear model = 1.27891e+06
+nonlinear model = 725092
+
+time moment = 922
+linear model = 1.28307e+06
+nonlinear model = 726312
+
+time moment = 923
+linear model = 1.28724e+06
+nonlinear model = 727532
+
+time moment = 924
+linear model = 1.29141e+06
+nonlinear model = 728750
+
+time moment = 925
+linear model = 1.2956e+06
+nonlinear model = 729968
+
+time moment = 926
+linear model = 1.29979e+06
+nonlinear model = 731184
+
+time moment = 927
+linear model = 1.30399e+06
+nonlinear model = 732400
+
+time moment = 928
+linear model = 1.3082e+06
+nonlinear model = 733615
+
+time moment = 929
+linear model = 1.31242e+06
+nonlinear model = 734828
+
+time moment = 930
+linear model = 1.31665e+06
+nonlinear model = 736041
+
+time moment = 931
+linear model = 1.32089e+06
+nonlinear model = 737253
+
+time moment = 932
+linear model = 1.32514e+06
+nonlinear model = 738464
+
+time moment = 933
+linear model = 1.3294e+06
+nonlinear model = 739675
+
+time moment = 934
+linear model = 1.33366e+06
+nonlinear model = 740884
+
+time moment = 935
+linear model = 1.33794e+06
+nonlinear model = 742092
+
+time moment = 936
+linear model = 1.34222e+06
+nonlinear model = 743300
+
+time moment = 937
+linear model = 1.34651e+06
+nonlinear model = 744506
+
+time moment = 938
+linear model = 1.35082e+06
+nonlinear model = 745712
+
+time moment = 939
+linear model = 1.35513e+06
+nonlinear model = 746916
+
+time moment = 940
+linear model = 1.35945e+06
+nonlinear model = 748120
+
+time moment = 941
+linear model = 1.36378e+06
+nonlinear model = 749323
+
+time moment = 942
+linear model = 1.36812e+06
+nonlinear model = 750525
+
+time moment = 943
+linear model = 1.37247e+06
+nonlinear model = 751726
+
+time moment = 944
+linear model = 1.37682e+06
+nonlinear model = 752926
+
+time moment = 945
+linear model = 1.38119e+06
+nonlinear model = 754126
+
+time moment = 946
+linear model = 1.38557e+06
+nonlinear model = 755324
+
+time moment = 947
+linear model = 1.38995e+06
+nonlinear model = 756522
+
+time moment = 948
+linear model = 1.39435e+06
+nonlinear model = 757718
+
+time moment = 949
+linear model = 1.39875e+06
+nonlinear model = 758914
+
+time moment = 950
+linear model = 1.40316e+06
+nonlinear model = 760108
+
+time moment = 951
+linear model = 1.40758e+06
+nonlinear model = 761302
+
+time moment = 952
+linear model = 1.41202e+06
+nonlinear model = 762495
+
+time moment = 953
+linear model = 1.41646e+06
+nonlinear model = 763688
+
+time moment = 954
+linear model = 1.42091e+06
+nonlinear model = 764879
+
+time moment = 955
+linear model = 1.42537e+06
+nonlinear model = 766069
+
+time moment = 956
+linear model = 1.42983e+06
+nonlinear model = 767258
+
+time moment = 957
+linear model = 1.43431e+06
+nonlinear model = 768447
+
+time moment = 958
+linear model = 1.4388e+06
+nonlinear model = 769635
+
+time moment = 959
+linear model = 1.4433e+06
+nonlinear model = 770821
+
+time moment = 960
+linear model = 1.4478e+06
+nonlinear model = 772007
+
+time moment = 961
+linear model = 1.45232e+06
+nonlinear model = 773192
+
+time moment = 962
+linear model = 1.45684e+06
+nonlinear model = 774376
+
+time moment = 963
+linear model = 1.46138e+06
+nonlinear model = 775560
+
+time moment = 964
+linear model = 1.46592e+06
+nonlinear model = 776742
+
+time moment = 965
+linear model = 1.47047e+06
+nonlinear model = 777924
+
+time moment = 966
+linear model = 1.47504e+06
+nonlinear model = 779104
+
+time moment = 967
+linear model = 1.47961e+06
+nonlinear model = 780284
+
+time moment = 968
+linear model = 1.48419e+06
+nonlinear model = 781463
+
+time moment = 969
+linear model = 1.48878e+06
+nonlinear model = 782641
+
+time moment = 970
+linear model = 1.49338e+06
+nonlinear model = 783818
+
+time moment = 971
+linear model = 1.49799e+06
+nonlinear model = 784994
+
+time moment = 972
+linear model = 1.50261e+06
+nonlinear model = 786170
+
+time moment = 973
+linear model = 1.50724e+06
+nonlinear model = 787344
+
+time moment = 974
+linear model = 1.51188e+06
+nonlinear model = 788518
+
+time moment = 975
+linear model = 1.51652e+06
+nonlinear model = 789691
+
+time moment = 976
+linear model = 1.52118e+06
+nonlinear model = 790863
+
+time moment = 977
+linear model = 1.52585e+06
+nonlinear model = 792034
+
+time moment = 978
+linear model = 1.53052e+06
+nonlinear model = 793204
+
+time moment = 979
+linear model = 1.53521e+06
+nonlinear model = 794374
+
+time moment = 980
+linear model = 1.53991e+06
+nonlinear model = 795543
+
+time moment = 981
+linear model = 1.54461e+06
+nonlinear model = 796710
+
+time moment = 982
+linear model = 1.54933e+06
+nonlinear model = 797877
+
+time moment = 983
+linear model = 1.55405e+06
+nonlinear model = 799043
+
+time moment = 984
+linear model = 1.55878e+06
+nonlinear model = 800209
+
+time moment = 985
+linear model = 1.56353e+06
+nonlinear model = 801373
+
+time moment = 986
+linear model = 1.56828e+06
+nonlinear model = 802537
+
+time moment = 987
+linear model = 1.57304e+06
+nonlinear model = 803699
+
+time moment = 988
+linear model = 1.57781e+06
+nonlinear model = 804861
+
+time moment = 989
+linear model = 1.5826e+06
+nonlinear model = 806022
+
+time moment = 990
+linear model = 1.58739e+06
+nonlinear model = 807182
+
+time moment = 991
+linear model = 1.59219e+06
+nonlinear model = 808342
+
+time moment = 992
+linear model = 1.597e+06
+nonlinear model = 809500
+
+time moment = 993
+linear model = 1.60182e+06
+nonlinear model = 810658
+
+time moment = 994
+linear model = 1.60665e+06
+nonlinear model = 811815
+
+time moment = 995
+linear model = 1.61149e+06
+nonlinear model = 812971
+
+time moment = 996
+linear model = 1.61634e+06
+nonlinear model = 814127
+
+time moment = 997
+linear model = 1.6212e+06
+nonlinear model = 815281
+
+time moment = 998
+linear model = 1.62607e+06
+nonlinear model = 816435
+
+time moment = 999
+linear model = 1.63095e+06
+nonlinear model = 817588
+
+time moment = 1000
+linear model = 1.63584e+06
+nonlinear model = 818740
