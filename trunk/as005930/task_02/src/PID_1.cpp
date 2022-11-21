@@ -97,7 +97,7 @@ public:
 	* \param t_0 начальная температура объекта
 	* \param w_0 начальное тепло, поступающее объекту
 	*/
-	Rocket(double t_0, double w_0 = 0) : PID_Object() {
+	Rocket(double t_0, double w_0) : PID_Object() {
 		y_t[0] = 0; ///< приравниваем к нулю, т.к. пзапрошлого момента ещё нет
 		y_t[1] = 0; ///< приравниваем к нулю, т.к. прошлого момента ещё нет
 		y_t[2] = t_0; ///< устанавливаем начальную температуру объекта
@@ -166,6 +166,7 @@ public:
 	* \param w_0 начальное тепло, поступающее объекту
 	*/
 	Regulator(double temperature, double target_value) {
+		this->temp_temperature = temperature;
 		this->target_value = target_value; ///< устанавилваем желаемое значение 
 		
 		this->e_t[0] = 0; ///< приравниваем к нулю, т.к. позапрошлого момента ещё нет
@@ -199,7 +200,7 @@ int main() {
 	cout << "Goal value: "; cin >> value; ///< вводим желаемое значение
 	cout << "Start temperature: "; cin >> start_temperature; ///< вводим начальную температуру
 
-	Rocket pid_rocket(start_temperature); ///< создаём объект регулирования
+	Rocket pid_rocket(start_temperature, 0); ///< создаём объект регулирования
 	Regulator regulator(pid_rocket.get_y_t(), value); ///< создаём регулятор
 	regulator.set_y_t(pid_rocket.get_y_t()); ///< передаём регулятору начальную температуру объекта
 	pid_rocket.set_w_t(regulator.get_u_t()); ///< передаём объекту начальное управляющее воздействие 
