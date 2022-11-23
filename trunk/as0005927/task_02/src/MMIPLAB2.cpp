@@ -6,7 +6,7 @@ using namespace std;
 class Regulator
 {
 protected:
-	const double k = 0.1, t = 10, t_d = 50, t_0 = 10;
+	const double k = 0.1, t = 15, t_d = 50, t_0 = 10;
 	const double a = 1, b = 0.0033, y_0 = 18, c = 0.525, d = 0.525, w_t = 100;
 	const int j = 150;
 	double e = 0;
