@@ -24,5 +24,6 @@
 предварительно изменим права файла на 0777, чтобы избежать ошибки permission denied.
 ## Результат выполнения программы/
 
-![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/b0837e11bc1624cb33b4c858e6b60b38c406c82c/trunk/as005925/task_03/doc/image/console.png)
+![Отчет1](https://raw.githubusercontent.com/brstu/MMIPU-2022/db4160f61b014aab1d54c3584bcf5f845dc4366b/trunk/as005930/task_03/images/controller1.PNG)
+![Отчет2](https://raw.githubusercontent.com/brstu/MMIPU-2022/db4160f61b014aab1d54c3584bcf5f845dc4366b/trunk/as005930/task_03/images/controller1_2.PNG)
 
