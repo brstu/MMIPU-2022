@@ -20,5 +20,5 @@
 Надо смоделировать температуру определенного объекта
 ## Результат выполнения программы
 
-![Линейная модель](https://github.com/Sanyajo/MMIPU-2022/blob/lab/trunc/as0005925/task_01/doc/images/linealmodel.png?raw=true)
-![Нелинейная модель](https://github.com/Sanyajo/MMIPU-2022/blob/lab/trunc/as0005925/task_01/doc/images/nolinealmodel.png?raw=true)
+![Линейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/fa9e803cfe371d1ef72a1498b81d17410fe92d0e/trunk/as005920/task_01/doc/Linemodel.png)
+![Нелинейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/fa9e803cfe371d1ef72a1498b81d17410fe92d0e/trunk/as005920/task_01/doc/Nolinemodel.png)
