@@ -17,8 +17,7 @@
 Брест 2022
 
 ### Цель работы: контроль температуры объекта
-## Ход работы 
 ## Результат выполнения программы
 
-![Линейная модель](./images/linemodel.png)
+![Нелинейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/77e0730deeb00947c797d82b69058daca06c7e9d/trunk/as005921/task_02/doc/nolineModel.png)
 
