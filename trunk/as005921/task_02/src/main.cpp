@@ -34,7 +34,6 @@ public:
      */
     NoLineModel(){}
     double reg(double _temp, double _warm) {
-        double t;
         t = a * _temp - b * pow(t, 2) + c * _warm + d * sin(warm);
         warm = _warm;
         t = _temp;
@@ -67,7 +66,7 @@ public:
         return u;
     }
 
-    double PID_controller(double w, double y0, Reg_controller* model){
+    double PID_controller(double w, double y0, NoLineModel* model){
         double e1Prev = 0, e2Prev = 0, y = y0;
         for (int i = 0; i <100; i++) {
             double error, u;
