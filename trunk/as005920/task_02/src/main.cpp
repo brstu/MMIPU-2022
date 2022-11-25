@@ -10,10 +10,6 @@ private:
     double in_t_1 = 0;
 public:
     nolinefunct(){}
-    nolinefunct(double _input_warm, double _input_temp){
-        _input_warm = in_w_1;
-        _input_temp = in_t_1;
-    }
     double functreg(double in_t, double in_w){
         return a * in_t - b * pow(in_t_1, 2) + c * in_w + d * sin(in_w_1);
         in_w_1 = in_w;
