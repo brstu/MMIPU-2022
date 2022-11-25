@@ -4,18 +4,16 @@
 --------------------------------|---------------------------------------------
 `class `[`NoLineModel`](#class_no_line_model) | Класс нелинейной модели
 `class `[`PID_contr`](#class_p_i_d__contr) | Абстрактный класс пид-контроллера
-`class `[`Reg_controller`](#class_reg__controller) | Абстрактный класс моделей вычисления
 
 ## class `NoLineModel` {#class_no_line_model}
 
 ```
 class NoLineModel
-  : public Reg_controller
+  : public PID_contr
 ```
 
 Класс нелинейной модели
 
-Является подклассом Model
 
 ### Summary
 

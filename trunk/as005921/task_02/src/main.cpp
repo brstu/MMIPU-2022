@@ -8,20 +8,11 @@
  */
 
 /**
- * @class Reg_controller
- * @brief Абстрактный класс моделей вычисления
- */
-class Reg_controller{
-public:
-    virtual double reg(double _temp, double _warm) = 0;
-};
-
-/**
  * @class NoLineModel
  * @brief Класс нелинейной модели
  * @details Является подклассом Model
  */
-class NoLineModel: public Reg_controller{
+class NoLineModel:PID_contr{
 private:
     /**
      * @brief Константы нелинейной модели
@@ -41,6 +32,7 @@ public:
      * @param   _warm    Выходное тепло
      * @return  double
      */
+    NoLineModel(){}
     double reg(double _temp, double _warm) {
         double t;
         t = a * _temp - b * pow(t, 2) + c * _warm + d * sin(warm);
@@ -48,6 +40,7 @@ public:
         t = _temp;
         return t;
     }
+    ~NoLineModel() {}
 };
 /**
  * @class PID_contr
@@ -65,6 +58,7 @@ private:
      */
     double u = 0, Td = 50, T =11, T0 = 11, k = 0.1;
 public:
+    PID_contr() {}
     double controller(double e, double e1, double e2){
         double q0 = k*(1+(Td/T0));
         double q1 = -1*k*(1+2*(Td/T0)-(T0/T));
@@ -72,9 +66,7 @@ public:
         u += q0*e + q1*e1 + q2*e2;
         return u;
     }
-    void Reset_U(){
-        u = 0;
-    }
+
     double PID_controller(double w, double y0, Reg_controller* model){
         double e1Prev = 0, e2Prev = 0, y = y0;
         for (int i = 0; i <100; i++) {
@@ -87,6 +79,7 @@ public:
             e1Prev = error;
         }
     }
+    ~PID_contr() {}
 };
 
 int main(){
