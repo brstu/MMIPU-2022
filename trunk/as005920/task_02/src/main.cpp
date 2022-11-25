@@ -11,9 +11,11 @@ private:
 public:
     nolinefunct(){}
     double functreg(double in_t, double in_w){
-        return a * in_t - b * pow(in_t_1, 2) + c * in_w + d * sin(in_w_1);
+        double temp_buf;
+        temp_buf = a * in_t - b * pow(in_t_1, 2) + c * in_w + d * sin(in_w_1);
         in_w_1 = in_w;
         in_t_1 = in_t;
+        return temp_buf;
     }
 };
 
