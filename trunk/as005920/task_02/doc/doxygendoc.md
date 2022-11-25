@@ -2,10 +2,10 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`class `[`Nolinealmodel`](#class_nolinealmodel) | Класс нелинейной модели
-`class `[`PID`](#class_p_i_d) | Абстрактный класс пид-контроллера
+`class `[`nolinefunct`](#class_nolinefunct) | Класс нелинейной модели
+`class `[`PIDregulator`](#class_p_i_d) | Абстрактный класс пид-контроллера
 
-## class `Nolinealmodel` {#class_nolinealmodel}
+## class `nolinefunct` {#class_nolinefunct}
 
 Класс нелинейной модели
 
@@ -13,19 +13,19 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public inline  `[`Nolinealmodel`](#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87)`()` | 
-`public inline double `[`nolinemodel_controller`](#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f)`(double in_t, double in_w)` | Метод вычисления температуры для нелинейной температуры
-`public inline  `[`~Nolinealmodel`](#class_nolinealmodel_1a071acf01334d3e4b58ed299d9d97488d)`()` | 
-`private const double `[`a`](#class_nolinealmodel_1a988d7129bb1cd32209cb785d190fbfe8) | Константы нелинейной модели
-`private const double `[`b`](#class_nolinealmodel_1aba0a3b23f3ec7fc5e0838d769fac2590) | 
-`private const double `[`c`](#class_nolinealmodel_1ab973684a43214715ca14cfcbee3ed081) | 
-`private const double `[`d`](#class_nolinealmodel_1a2333d84ea2564f2ef37b73e6040afb4b) | 
-`private double `[`c_w`](#class_nolinealmodel_1ae08a046343a82c75d1c9b3b1458b86b4) | 
-`private double `[`c_t`](#class_nolinealmodel_1a2e17095666a61a29ac586ef25b9fc1bc) | 
+`public inline  `[`nolinefunct`](#class_nolinefunct_1a5153eb3009529547aa9925d21d607c87)`()` | 
+`public inline double `[`nolinemodel_controller`](#class_nolinefunct_1ac3d73c3e074329581d4eed2748231b1f)`(double in_t, double in_w)` | Метод вычисления температуры для нелинейной температуры
+`public inline  `[`~nolinefunct`](#class_nolinefunct_1a071acf01334d3e4b58ed299d9d97488d)`()` | 
+`private const double `[`a`](#class_nolinefunct_1a988d7129bb1cd32209cb785d190fbfe8) | Константы нелинейной модели
+`private const double `[`b`](#class_nolinefunct_1aba0a3b23f3ec7fc5e0838d769fac2590) | 
+`private const double `[`c`](#class_nolinefunct_1ab973684a43214715ca14cfcbee3ed081) | 
+`private const double `[`d`](#class_nolinefunct_1a2333d84ea2564f2ef37b73e6040afb4b) | 
+`private double `[`c_w`](#class_nolinefunct_1ae08a046343a82c75d1c9b3b1458b86b4) | 
+`private double `[`c_t`](#class_nolinefunct_1a2e17095666a61a29ac586ef25b9fc1bc) | 
 
 ### Members
 
-#### `public inline  `[`Nolinealmodel`](#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87)`()` {#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87}
+#### `public inline  `[`nolinefunct`](#class_nolinefunct_1a5153eb3009529547aa9925d21d607c87)`()` {#class_nolinefunct_1a5153eb3009529547aa9925d21d607c87}
 
 #### `public inline double `[`nolinemodel_controller`](#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f)`(double in_t, double in_w)` {#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f}
 
