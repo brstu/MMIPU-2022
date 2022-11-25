@@ -1,29 +1,19 @@
 #include <iostream>
 #include <cmath>
 #include <algorithm>
+using namespace std;
 /**
  * @mainpage
  * @brief ПИД-регулятор
  * @author Лукашук Сергей Игоревич
  */
 
-/**
- * @class Regulator
- * @brief Абстрактный класс моделей вычисления
- */
-class Regulator{
-public:
-    Regulator(){}
-    virtual double regulator(double in_temp, double in_warm) = 0;
-    ~Regulator (){}
-};
 
 /**
- * @class nolinemodel
+ * @class Nolinealmodel
  * @brief Класс нелинейной модели
- * @details Является подклассом Model
  */
-class nolinemodel: public Regulator{
+class Nolinealmodel{
 private:
     /**
      * @brief Константы нелинейной модели
@@ -35,72 +25,66 @@ private:
      * @param   d           Параметр D
      */
     const double a = 1, b = 0.0043, c = 0.515, d =0.515;
-    double c_warm = 0;
-    double c_temp = 0;
+    double c_w = 0;
+    double c_t = 0;
 public:
-    nolinemodel (){}
+    Nolinealmodel(){}
     /**
      * @brief   Метод вычисления температуры для нелинейной температуры
-     * @param   in_warm    Выходное тепло
-     * @return  double
+     * @param   in_w    Выходное тепло
+     * @param   in_t    Выходная температура
      */
-    double regulator(double in_temp, double in_warm) {
-        double temp;
-        temp = a * in_temp - b * pow(c_temp, 2) + c * in_warm + d * sin(c_warm);
-        c_warm = in_warm;
-        c_temp = in_temp;
-        return temp;
+    double nolinemodel_controller(double in_t, double in_w) {
+        double buf;
+        buf = a * in_t - b * pow(c_t, 2) + c * in_w + d * sin(c_w);
+        c_w = in_w;
+        c_t = in_t;
+        return buf;
     }
-    ~nolinemodel(){}
+    ~Nolinealmodel(){}
 };
 /**
- * @class PID_controller
+ * @class PID
  * @brief Абстрактный класс пид-контроллера
  */
-class PID_controller{
+class PID{
 private:
     /**
-     * @brief controller
-     *
      * @param   T   Параметр Т
      * @param   T0  Параметр Т0
      * @param   Td  Параметр Td
      * @param   K   Параметр k
      */
-    double u = 0, Td = 45, T =11, T0 = 14, k = 0.1;
+    const double Td = 45, T =11, T0 = 14, k = 0.1;
+    double u = 0;
 public:
-    PID_controller(){}
-    double controller(double e, double e1, double e2){
+    PID(){}
+    double contr(double e, double e1, double e2){
         double q0 = k*(1+(Td/T0));
         double q1 = -1*k*(1+2*(Td/T0)-(T0/T));
         double q2 = k * (Td/T0);
         u += q0*e + q1*e1 + q2*e2;
         return u;
     }
-    void Reset_U(){
-        u = 0;
-    }
-    double PID_contr(double w, double y0, Regulator* model){
-        double errorPrev = 0, error2Prev = 0, y = y0;
+
+    double PID_regulator(double w, double y0, Nolinealmodel* model){
+        double ePr = 0, e2Pr = 0, y = y0;
         for (int i = 0; i <100; i++) {
-            double error, u;
-            error = w - y;
-            u = controller(error, errorPrev, error2Prev);
-            y = model->regulator(y0, u);
-            std::cout << "E = " << error << ", Y = " << y << ", U = " << u << std::endl;
-            error2Prev = errorPrev;
-            errorPrev = error;
+            double E, u;
+            E = w - y;
+            u = contr(E, ePr, e2Pr);
+            y = model->nolinemodel_controller(y0, u);
+            cout << "E = " << E << ", Y = " << y << ", U = " << u << std::endl;
+            e2Pr = ePr;
+            ePr = E;
         }
     }
-    ~PID_controller(){}
-
+    ~PID(){}
 };
-
 int main(){
-    double w = 80, y = 10;
-    int number;
-    PID_controller* pid_contr = new PID_controller;
-    nolinemodel* nlModel = new nolinemodel;
-    pid_contr->PID_contr(w,y,nlModel);
+    double w = 75, y = 15;
+    PID* pid = new PID;
+    Nolinealmodel* nolineModel = new Nolinealmodel;
+    pid->PID_regulator(w,y,nolineModel);
     return 0;
 }

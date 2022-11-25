@@ -2,46 +2,43 @@
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`class `[`nolinemodel`](#classnolinemodel) | Класс нелинейной модели
-`class `[`PID_controller`](#class_p_i_d__controller) | Абстрактный класс пид-контроллера
-`class `[`Regulator`](#class_regulator) | Абстрактный класс моделей вычисления
+`class `[`Nolinealmodel`](#class_nolinealmodel) | Класс нелинейной модели
+`class `[`PID`](#class_p_i_d) | Абстрактный класс пид-контроллера
 
-## class `nolinemodel` {#classnolinemodel}
-
-```
-class nolinemodel
-  : public Regulator
-```
+## class `Nolinealmodel` {#class_nolinealmodel}
 
 Класс нелинейной модели
-
-Является подклассом Model
 
 ### Summary
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public inline virtual double `[`regulator`](#classnolinemodel_1a3329aa139c5047141fac8f5ee62d139e)`(double in_temp, double in_warm)` | Метод вычисления температуры для нелинейной температуры
-`private const double `[`a`](#classnolinemodel_1a1cdba1adad1f8bf8e1e9a4e32d0438a8) | Константы нелинейной модели
-`private const double `[`b`](#classnolinemodel_1a95571213fbd074fef81fe1fba57338e0) | 
-`private const double `[`c`](#classnolinemodel_1a113886922031a3e1a82ce6b5c6d93aec) | 
-`private const double `[`d`](#classnolinemodel_1afa476e856370bdca0ddcd93ebc7e40da) | 
-`private double `[`c_warm`](#classnolinemodel_1acb45015c726da70ea7d4fb30a64310d0) | 
-`private double `[`c_temp`](#classnolinemodel_1a90fa540257c8d3f0b95822a532c53c2c) | 
+`public inline  `[`Nolinealmodel`](#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87)`()` | 
+`public inline double `[`nolinemodel_controller`](#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f)`(double in_t, double in_w)` | Метод вычисления температуры для нелинейной температуры
+`public inline  `[`~Nolinealmodel`](#class_nolinealmodel_1a071acf01334d3e4b58ed299d9d97488d)`()` | 
+`private const double `[`a`](#class_nolinealmodel_1a988d7129bb1cd32209cb785d190fbfe8) | Константы нелинейной модели
+`private const double `[`b`](#class_nolinealmodel_1aba0a3b23f3ec7fc5e0838d769fac2590) | 
+`private const double `[`c`](#class_nolinealmodel_1ab973684a43214715ca14cfcbee3ed081) | 
+`private const double `[`d`](#class_nolinealmodel_1a2333d84ea2564f2ef37b73e6040afb4b) | 
+`private double `[`c_w`](#class_nolinealmodel_1ae08a046343a82c75d1c9b3b1458b86b4) | 
+`private double `[`c_t`](#class_nolinealmodel_1a2e17095666a61a29ac586ef25b9fc1bc) | 
 
 ### Members
 
-#### `public inline virtual double `[`regulator`](#classnolinemodel_1a3329aa139c5047141fac8f5ee62d139e)`(double in_temp, double in_warm)` {#classnolinemodel_1a3329aa139c5047141fac8f5ee62d139e}
+#### `public inline  `[`Nolinealmodel`](#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87)`()` {#class_nolinealmodel_1a5153eb3009529547aa9925d21d607c87}
+
+#### `public inline double `[`nolinemodel_controller`](#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f)`(double in_t, double in_w)` {#class_nolinealmodel_1ac3d73c3e074329581d4eed2748231b1f}
 
 Метод вычисления температуры для нелинейной температуры
 
 #### Parameters
-* `in_warm` Выходное тепло 
+* `in_w` Выходное тепло 
 
-#### Returns
-double
+* `in_t` Выходная температура
 
-#### `private const double `[`a`](#classnolinemodel_1a1cdba1adad1f8bf8e1e9a4e32d0438a8) {#classnolinemodel_1a1cdba1adad1f8bf8e1e9a4e32d0438a8}
+#### `public inline  `[`~Nolinealmodel`](#class_nolinealmodel_1a071acf01334d3e4b58ed299d9d97488d)`()` {#class_nolinealmodel_1a071acf01334d3e4b58ed299d9d97488d}
+
+#### `private const double `[`a`](#class_nolinealmodel_1a988d7129bb1cd32209cb785d190fbfe8) {#class_nolinealmodel_1a988d7129bb1cd32209cb785d190fbfe8}
 
 Константы нелинейной модели
 
@@ -56,17 +53,17 @@ double
 
 * `d` Параметр D
 
-#### `private const double `[`b`](#classnolinemodel_1a95571213fbd074fef81fe1fba57338e0) {#classnolinemodel_1a95571213fbd074fef81fe1fba57338e0}
+#### `private const double `[`b`](#class_nolinealmodel_1aba0a3b23f3ec7fc5e0838d769fac2590) {#class_nolinealmodel_1aba0a3b23f3ec7fc5e0838d769fac2590}
 
-#### `private const double `[`c`](#classnolinemodel_1a113886922031a3e1a82ce6b5c6d93aec) {#classnolinemodel_1a113886922031a3e1a82ce6b5c6d93aec}
+#### `private const double `[`c`](#class_nolinealmodel_1ab973684a43214715ca14cfcbee3ed081) {#class_nolinealmodel_1ab973684a43214715ca14cfcbee3ed081}
 
-#### `private const double `[`d`](#classnolinemodel_1afa476e856370bdca0ddcd93ebc7e40da) {#classnolinemodel_1afa476e856370bdca0ddcd93ebc7e40da}
+#### `private const double `[`d`](#class_nolinealmodel_1a2333d84ea2564f2ef37b73e6040afb4b) {#class_nolinealmodel_1a2333d84ea2564f2ef37b73e6040afb4b}
 
-#### `private double `[`c_warm`](#classnolinemodel_1acb45015c726da70ea7d4fb30a64310d0) {#classnolinemodel_1acb45015c726da70ea7d4fb30a64310d0}
+#### `private double `[`c_w`](#class_nolinealmodel_1ae08a046343a82c75d1c9b3b1458b86b4) {#class_nolinealmodel_1ae08a046343a82c75d1c9b3b1458b86b4}
 
-#### `private double `[`c_temp`](#classnolinemodel_1a90fa540257c8d3f0b95822a532c53c2c) {#classnolinemodel_1a90fa540257c8d3f0b95822a532c53c2c}
+#### `private double `[`c_t`](#class_nolinealmodel_1a2e17095666a61a29ac586ef25b9fc1bc) {#class_nolinealmodel_1a2e17095666a61a29ac586ef25b9fc1bc}
 
-## class `PID_controller` {#class_p_i_d__controller}
+## class `PID` {#class_p_i_d}
 
 Абстрактный класс пид-контроллера
 
@@ -74,26 +71,27 @@ double
 
  Members                        | Descriptions                                
 --------------------------------|---------------------------------------------
-`public inline double `[`controller`](#class_p_i_d__controller_1a8f0fdbda1f69726508eaebe7657d544d)`(double e, double e1, double e2)` | 
-`public inline void `[`Reset_U`](#class_p_i_d__controller_1a82f45df3cab5592c644e0010909d60a1)`()` | 
-`public inline double `[`PID_contr`](#class_p_i_d__controller_1a50aced8b083a102e1a5b646cdecfc134)`(double w, double y0, `[`Regulator`](#class_regulator)` * model)` | 
-`private double `[`u`](#class_p_i_d__controller_1adc1a0d283bf172b3989ceb3f8b94d395) | controller
-`private double `[`Td`](#class_p_i_d__controller_1afed0f7047921ed2a07232ce770d9e85a) | 
-`private double `[`T`](#class_p_i_d__controller_1a88e6c57a17bf0372d6b4bcd52dae13a8) | 
-`private double `[`T0`](#class_p_i_d__controller_1a24fba432394075e763ca8f18ff3285e9) | 
-`private double `[`k`](#class_p_i_d__controller_1a75a15b60e8d357b2a4200ebb0387bfb9) | 
+`public inline  `[`PID`](#class_p_i_d_1a0311b6f7de348499ce24e53ba353514a)`()` | 
+`public inline double `[`contr`](#class_p_i_d_1a47f11bf23f57ad87196f4db73a509268)`(double e, double e1, double e2)` | 
+`public inline double `[`PID_regulator`](#class_p_i_d_1a0c1e18b7a301bc825f79c5c9074a2060)`(double w, double y0, `[`Nolinealmodel`](#class_nolinealmodel)` * model)` | 
+`public inline  `[`~PID`](#class_p_i_d_1ab7d389fc5b88d881bc25f5dafd360441)`()` | 
+`private const double `[`Td`](#class_p_i_d_1a97ed905d61980831d97c9f0ed460d51e) | #### Parameters
+`private const double `[`T`](#class_p_i_d_1a4809f5a5c1efd3512929ec10e225b024) | 
+`private const double `[`T0`](#class_p_i_d_1a5e747beca09c0aa9826d33c4c3f6db7b) | 
+`private const double `[`k`](#class_p_i_d_1af6141c0fb573968bdfb2462c11ed2acc) | 
+`private double `[`u`](#class_p_i_d_1a67ade291736a1c89ca44ada3ff5604e0) | 
 
 ### Members
 
-#### `public inline double `[`controller`](#class_p_i_d__controller_1a8f0fdbda1f69726508eaebe7657d544d)`(double e, double e1, double e2)` {#class_p_i_d__controller_1a8f0fdbda1f69726508eaebe7657d544d}
+#### `public inline  `[`PID`](#class_p_i_d_1a0311b6f7de348499ce24e53ba353514a)`()` {#class_p_i_d_1a0311b6f7de348499ce24e53ba353514a}
 
-#### `public inline void `[`Reset_U`](#class_p_i_d__controller_1a82f45df3cab5592c644e0010909d60a1)`()` {#class_p_i_d__controller_1a82f45df3cab5592c644e0010909d60a1}
+#### `public inline double `[`contr`](#class_p_i_d_1a47f11bf23f57ad87196f4db73a509268)`(double e, double e1, double e2)` {#class_p_i_d_1a47f11bf23f57ad87196f4db73a509268}
 
-#### `public inline double `[`PID_contr`](#class_p_i_d__controller_1a50aced8b083a102e1a5b646cdecfc134)`(double w, double y0, `[`Regulator`](#class_regulator)` * model)` {#class_p_i_d__controller_1a50aced8b083a102e1a5b646cdecfc134}
+#### `public inline double `[`PID_regulator`](#class_p_i_d_1a0c1e18b7a301bc825f79c5c9074a2060)`(double w, double y0, `[`Nolinealmodel`](#class_nolinealmodel)` * model)` {#class_p_i_d_1a0c1e18b7a301bc825f79c5c9074a2060}
 
-#### `private double `[`u`](#class_p_i_d__controller_1adc1a0d283bf172b3989ceb3f8b94d395) {#class_p_i_d__controller_1adc1a0d283bf172b3989ceb3f8b94d395}
+#### `public inline  `[`~PID`](#class_p_i_d_1ab7d389fc5b88d881bc25f5dafd360441)`()` {#class_p_i_d_1ab7d389fc5b88d881bc25f5dafd360441}
 
-controller
+#### `private const double `[`Td`](#class_p_i_d_1a97ed905d61980831d97c9f0ed460d51e) {#class_p_i_d_1a97ed905d61980831d97c9f0ed460d51e}
 
 #### Parameters
 * `T` Параметр Т 
@@ -104,26 +102,12 @@ controller
 
 * `K` Параметр k
 
-#### `private double `[`Td`](#class_p_i_d__controller_1afed0f7047921ed2a07232ce770d9e85a) {#class_p_i_d__controller_1afed0f7047921ed2a07232ce770d9e85a}
+#### `private const double `[`T`](#class_p_i_d_1a4809f5a5c1efd3512929ec10e225b024) {#class_p_i_d_1a4809f5a5c1efd3512929ec10e225b024}
 
-#### `private double `[`T`](#class_p_i_d__controller_1a88e6c57a17bf0372d6b4bcd52dae13a8) {#class_p_i_d__controller_1a88e6c57a17bf0372d6b4bcd52dae13a8}
+#### `private const double `[`T0`](#class_p_i_d_1a5e747beca09c0aa9826d33c4c3f6db7b) {#class_p_i_d_1a5e747beca09c0aa9826d33c4c3f6db7b}
 
-#### `private double `[`T0`](#class_p_i_d__controller_1a24fba432394075e763ca8f18ff3285e9) {#class_p_i_d__controller_1a24fba432394075e763ca8f18ff3285e9}
+#### `private const double `[`k`](#class_p_i_d_1af6141c0fb573968bdfb2462c11ed2acc) {#class_p_i_d_1af6141c0fb573968bdfb2462c11ed2acc}
 
-#### `private double `[`k`](#class_p_i_d__controller_1a75a15b60e8d357b2a4200ebb0387bfb9) {#class_p_i_d__controller_1a75a15b60e8d357b2a4200ebb0387bfb9}
-
-## class `Regulator` {#class_regulator}
-
-Абстрактный класс моделей вычисления
-
-### Summary
-
- Members                        | Descriptions                                
---------------------------------|---------------------------------------------
-`public double `[`regulator`](#class_regulator_1a1f38dc31ad584dcfb2bad02f3dd13441)`(double in_temp, double in_warm)` | 
-
-### Members
-
-#### `public double `[`regulator`](#class_regulator_1a1f38dc31ad584dcfb2bad02f3dd13441)`(double in_temp, double in_warm)` {#class_regulator_1a1f38dc31ad584dcfb2bad02f3dd13441}
+#### `private double `[`u`](#class_p_i_d_1a67ade291736a1c89ca44ada3ff5604e0) {#class_p_i_d_1a67ade291736a1c89ca44ada3ff5604e0}
 
 Generated by [Moxygen](https://sourcey.com/moxygen)
