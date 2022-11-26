@@ -18,5 +18,5 @@
 ### Цель работы: запустить проект на контроллере AXC F 2152
 ## Результат выполнения программы
 
-![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/fa9e803cfe371d1ef72a1498b81d17410fe92d0e/trunk/as005920/task_03/doc/rezult.jpg)
+![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/9a11746081295cb0cbeddc130d317204142202a6/trunk/as005903/task_03/doc/othet.jpg)
 
