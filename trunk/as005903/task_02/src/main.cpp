@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <cmath>
+#include <fstream>
 using namespace std;
 /**
  * @mainpage
@@ -81,20 +82,21 @@ private:
      */
     double u = 0, Td = 50, T =10, T0 = 10, k = 0.1;
 public:
-    double controller(double e, double e1, double e2){
+    double regulator(double e, double e1, double e2){
         double q0 = k*(1+(Td/T0));
         double q1 = -1*k*(1+2*(Td/T0)-(T0/T));
         double q2 = k * (Td/T0);
         u += q0*e + q1*e1 + q2*e2;
         return u;
     }
-    double PID_contr(double w, double y0, Function* model){
+    double PID_contr(double w, double y0, Function* model,ofstream& file){
         double buf1 = 0, buf2 = 0, y = y0;
         for (int i = 0; i <100; i++) {
             double er, u;
             er = w - y;
-            u = controller(er, buf1, buf2);
+            u = regulator(er, buf1, buf2);
             y = model->function(y0, u);
+            file<<er<<"\t"<<u<<"\t"<<y;
             buf2 = buf1;
             buf1 = er;
         }
@@ -103,6 +105,8 @@ public:
 
 int main(){
     double w = 80, y = 10;
+    ofstream file;
+    file.open("text.txt");
     int number;
     cout<<"Выберите тип функции ( 1 - линейная, 2 - нелинейная): ";
     cin>>number;
@@ -110,13 +114,13 @@ int main(){
         case 1:{
             PID* pid = new PID;
             LineFunction* lfunct = new LineFunction;
-            pid->PID_contr(w,y,lfunct);
+            pid->PID_contr(w,y,lfunct,file);
             break;
         }
         case 2:{
             PID* pid = new PID;
             NoLineFunction* nlfunct = new NoLineFunction;
-            pid->PID_contr(w,y,nlfunct);
+            pid->PID_contr(w,y,nlfunct,file);
             break;
         }
         case 0:{
