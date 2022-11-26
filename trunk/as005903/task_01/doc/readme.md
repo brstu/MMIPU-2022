@@ -6,10 +6,10 @@
 ## "Математические модели информационных процессов и управления"
 ###"Моделирование контролируемого объекта"
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-Выполнила:
-Студентка 3 курса
+Выполнил:
+Студент 3 курса
 Группы АС-59
-Манюк К.В.
+Бурда Д.С.
 Проверил:
 Иванюк Д.С.
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -20,5 +20,5 @@
 Надо смоделировать температуру определенного объекта
 ## Результат выполнения программы
 
-![Линейная модель](https://github.com/Sanyajo/MMIPU-2022/blob/lab/trunc/as0005925/task_01/doc/images/linealmodel.png?raw=true)
-![Нелинейная модель](https://github.com/Sanyajo/MMIPU-2022/blob/lab/trunc/as0005925/task_01/doc/images/nolinealmodel.png?raw=true)
+![Линейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/08e633e6f972e0a09728e9e989251251071094ac/trunk/as005903/task_01/doc/graph1.png)
+![Нелинейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/08e633e6f972e0a09728e9e989251251071094ac/trunk/as005903/task_01/doc/graph2.png)
