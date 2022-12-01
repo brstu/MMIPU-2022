@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
 /**
  * @mainpage
  * @brief ПИД-регулятор
@@ -55,11 +54,12 @@ private:
     double T = 11;
     double T0 = 11;
     double k = 0.1;
-    double error;
+    double rashogdenie;
 public:
     /**
      * @brief   Метод вычисления u
      */
+    PID_Controller() {}
     double controller(double e, double e1, double e2){
         double q0 = k*(1+(Td/T0));
         double q1 = -1*k*(1+2*(Td/T0)-(T0/T));
@@ -68,16 +68,17 @@ public:
         return u;
     }
 
-    double PID_contr(double w, double y0, NoLineModel* model,int& number){
+    double PID_contr(double w, double y0, NoLineModel* func_model,int& number){
         double temp = 0, temp_1 = 0, y = y0;
         for (int i = 0; i <number; i++) {
-            error = w - y;
-            u = controller(error, temp, temp_1);
-            y = model->NoLineTemperature(y0, u);
+            rashogdenie = w - y;
+            u = controller(rashogdenie, temp, temp_1);
+            y = func_model->NoLineTemperature(y0, u);
             temp_1 = temp;
-            temp = error;
+            temp = rashogdenie;
         }
     }
+    ~PID_Controller() {}
 
 };
 
@@ -85,10 +86,9 @@ public:
 int main(){
     double w = 70, y = 15;
     int number;
-    cout<<"Введите колл времени: \n";
-    cin>>number;
+    std::cout<<"Введите колл времени: \n";
+    std::cin>>number;
     PID_Controller* pid_contr = new PID_Controller;
     NoLineModel* nolinemodel = new NoLineModel;
     pid_contr->PID_contr(w,y,nolinemodel,number);
-    return 0;
 }
