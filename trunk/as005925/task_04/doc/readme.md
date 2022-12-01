@@ -20,3 +20,4 @@
 
 ![Фото1](https://raw.githubusercontent.com/brstu/MMIPU-2022/9e77847eb3ee857f33ba1355aaed148fe1b62bd8/trunk/as005925/task_04/doc/photo_2.png)
 ![Фото2](https://raw.githubusercontent.com/brstu/MMIPU-2022/76fbcf5938fecac874bbf126d4ca677b855c4823/trunk/as005925/task_04/doc/photo2.png)
+![Фото3]()
