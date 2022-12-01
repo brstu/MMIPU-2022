@@ -19,5 +19,5 @@
 ### Цель работы: контроль температуры объекта
 ## Результат выполнения программы
 
-![Нелинейная модель](./images/nolinemodel.png)
+![Нелинейная модель](https://raw.githubusercontent.com/brstu/MMIPU-2022/dc17086c16e26e104d7f1047d3040c9253df27e8/trunk/as005908/task_02/doc/graph.png)
 
