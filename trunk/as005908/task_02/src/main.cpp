@@ -54,7 +54,7 @@ private:
     double T = 11;
     double T0 = 11;
     double k = 0.1;
-    double rashogdenie;
+    double rashogdenie=0;
 public:
     /**
      * @brief   Метод вычисления u
@@ -88,4 +88,5 @@ int main(){
     PID_Controller* pid_contr = new PID_Controller;
     NoLineModel* nolinemodel = new NoLineModel;
     pid_contr->PID_contr(w,y,nolinemodel,number);
+    return 0;
 }
