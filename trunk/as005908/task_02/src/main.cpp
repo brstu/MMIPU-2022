@@ -59,7 +59,6 @@ public:
     /**
      * @brief   Метод вычисления u
      */
-    PID_Controller() {}
     double controller(double e, double e1, double e2){
         double q0 = k*(1+(Td/T0));
         double q1 = -1*k*(1+2*(Td/T0)-(T0/T));
@@ -78,8 +77,6 @@ public:
             temp = rashogdenie;
         }
     }
-    ~PID_Controller() {}
-
 };
 
 
