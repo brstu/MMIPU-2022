@@ -35,6 +35,6 @@
 
 ![Отчет](https://raw.githubusercontent.com/brstu/MMIPU-2022/b0837e11bc1624cb33b4c858e6b60b38c406c82c/trunk/as005925/task_03/doc/image/console.png)
 
-## Исходынй файл
+## Исходный файл
 ./hello_PLCnext
 
