@@ -4,8 +4,8 @@
 
 class No_Line_Model{
 private:
-    long double inT_step;
-    long double inW_step;
+    long double inT_step=0;
+    long double inW_step=0;
 public:
     long double No_Line_Functoin(long double inT, long double inW,long double& a,long double& b,long double& c,long double& d){
         double buf;
@@ -21,7 +21,7 @@ private:
     long double u = 0;
     const long double Td = 40;
     const long double T =10;
-    const long double T0 = 10;
+    const long double T0 = 10.01;
     const long double k = 0.1;
 public:
     double Find_U(double e, double e1, double e2){
