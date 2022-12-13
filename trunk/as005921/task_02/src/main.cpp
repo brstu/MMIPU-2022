@@ -22,14 +22,14 @@ class PID_contr{
 private:
     double u = 0;
     double h = 0;
-    const double  Td = 50, T =11, T0 = 11, k = 0.1;
+    const double  Td = 50, T =11, Tk = 11, k = 0.1;
 public:
     PID_contr() {}
     double controller(double e, double e1, double e2){
-        double q0 = k*(1+(Td/T0));
-        double h = T0/T;
-        double q1 = -1*k*(1+(2*(Td/T0))-h);
-        double q2 = k * (Td/T0);
+        double q0 = k*(1+(Td/Tk));
+        double h = Tk/T;
+        double q1 = -1*k*(1+(2*(Td/Tk))-h);
+        double q2 = k * (Td/Tk);
         u += q0*e + q1*e1 + q2*e2;
         return u;
     }
