@@ -27,7 +27,7 @@ public:
     PID_contr() {}
     double controller(double e, double e1, double e2){
         double q0 = k*(1+(Td/Tk));
-        double h = Tk/T;
+        double h = 1/(Tk*T);
         double q1 = -1*k*(1+(2*(Td/Tk))-h);
         double q2 = k * (Td/Tk);
         u += q0*e + q1*e1 + q2*e2;
