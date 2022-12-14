@@ -65,7 +65,7 @@ private:
     long double u = 0;
     const long double Td = 40;
     const long double T = 10;
-    const long double T0 = 10;
+    const long double T0 = 10.01;
     const long double k = 0.1;
 public:
     /**
