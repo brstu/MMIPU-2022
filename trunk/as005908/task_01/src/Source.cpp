@@ -34,15 +34,15 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	double y, u;
-	cout << "¬ведите входную температуру: "; cin >> y; cout << endl;
-	cout << "¬ведите входное тепло: "; cin >> u; cout << endl;
-	cout << "ѕерва€ зависимость:" << endl;
+	cout << "Input y: "; cin >> y; cout << endl;
+	cout << "Input u: "; cin >> u; cout << endl;
+	cout << "First dependence:" << endl;
 	one(y, u);
 	cout << endl;
 	double y0, u0;
-	cout << "¬ведите y0 "; cin >> y0; cout << endl;
-	cout << "¬ведите u0 "; cin >> u0; cout << endl;
-	cout << endl << "¬тора€ зависимомть" << endl;
+	cout << "Input y0 "; cin >> y0; cout << endl;
+	cout << "input u0 "; cin >> u0; cout << endl;
+	cout << endl << "Second dependence" << endl;
 	two(y0,u0);
 	return 0;
 }
