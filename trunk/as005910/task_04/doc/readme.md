@@ -9,3 +9,6 @@
 ## Ход работы  
 В ходе изучения предложенных проектов, в документации одного из них были найдены орфографические ошибки. Создал issue, в котором указал на найденные мной недостатки.  
 ![issue](/trunk/as005910/task_04/image/issue.png)
+## Результат работы  
+![resissue](/trunk/as005910/task_04/image/resissue.png)  
+![resrequest](/trunk/as005910/task_04/image/resrequest.png)  
