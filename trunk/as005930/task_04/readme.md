@@ -34,7 +34,7 @@ https://groups.google.com/g/easyEPLANner - недействительна
 
 
 
-<img src="images/issue1.png">
+<img src="trunk/as005930/task_04/erorr.PNG">
 <br><br>
 
 
