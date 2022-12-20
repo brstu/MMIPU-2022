@@ -34,7 +34,7 @@ https://groups.google.com/g/easyEPLANner - недействительна
 
 
 
-<img src="trunk/as005930/task_04/erorr.PNG">
+<img src="https://raw.githubusercontent.com/brstu/MMIPU-2022/2fd5d2cd9c22d21f30aae1e8fcab18371d494d09/trunk/as005930/task_04/erorr.PNG">
 <br><br>
 
 
