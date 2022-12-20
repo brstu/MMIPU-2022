@@ -1,5 +1,5 @@
 Model {
-  Name			  "examp1"
+  Name			  "main"
   Version		  4.00
   SampleTimeColors	  off
   LibraryLinkDisplay	  "none"
@@ -21,13 +21,13 @@ Model {
   StatusBar		  on
   BrowserShowLibraryLinks off
   BrowserLookUnderMasks	  off
-  Created		  "Mon Nov 28 16:33:25 2022"
+  Created		  "Tue Oct 18 14:43:14 2022"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "User"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Nov 28 16:46:23 2022"
-  ModelVersionFormat	  "1.%<AutoIncrement:1>"
+  LastModifiedDate	  "Tue Dec 20 23:11:26 2022"
+  ModelVersionFormat	  "1.%<AutoIncrement:7>"
   ConfigurationManager	  "None"
   SimParamPage		  "Solver"
   StartTime		  "0.0"
@@ -153,8 +153,8 @@ Model {
     FontAngle		    "normal"
   }
   System {
-    Name		    "examp1"
-    Location		    [937, 267, 1437, 555]
+    Name		    "main"
+    Location		    [121, 210, 938, 782]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -166,105 +166,127 @@ Model {
     ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
     Block {
-      BlockType		      Product
-      Name		      "Product"
-      Ports		      [2, 1]
-      Position		      [175, 164, 210, 206]
-      ShowName		      off
-      Inputs		      "*/"
-      Multiplication	      "Element-wise(.*)"
-      SaturateOnIntegerOverflow	on
+      BlockType		      Constant
+      Name		      "Constant"
+      Position		      [165, 175, 195, 205]
+      Value		      "1"
+      VectorParams1D	      on
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope"
+      Ports		      [1]
+      Position		      [635, 174, 665, 206]
+      Floating		      off
+      Location		      [361, 212, 1053, 640]
+      Open		      off
+      NumInputPorts	      "1"
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      List {
+	ListType		SelectedSignals
+	axes1			""
+      }
+      Grid		      "on"
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "StructureWithTime"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "0"
     }
     Block {
       BlockType		      Sum
       Name		      "Sum"
       Ports		      [2, 1]
-      Position		      [155, 75, 175, 95]
+      Position		      [235, 180, 255, 200]
       ShowName		      off
       IconShape		      "round"
       Inputs		      "|+-"
       SaturateOnIntegerOverflow	on
     }
     Block {
-      BlockType		      Display
-      Name		      "chastnoe"
-      Ports		      [1]
-      Position		      [260, 160, 350, 190]
-      FontSize		      10
-      Format		      "short"
-      Decimation	      "1"
-      Floating		      off
-      SampleTime	      "-1"
+      BlockType		      Sum
+      Name		      "Sum1"
+      Ports		      [2, 1]
+      Position		      [400, 180, 420, 200]
+      ShowName		      off
+      IconShape		      "round"
+      Inputs		      "|+-"
+      SaturateOnIntegerOverflow	on
     }
     Block {
-      BlockType		      Constant
-      Name		      "number 1"
-      Position		      [45, 71, 115, 99]
-      BackgroundColor	      "green"
-      NamePlacement	      "alternate"
-      Value		      "3.14159265"
-      VectorParams1D	      on
+      BlockType		      TransferFcn
+      Name		      "Transfer Fcn"
+      Position		      [295, 172, 355, 208]
+      Numerator		      "[1 0]"
+      Denominator	      " [1 0.12  1 ]"
+      AbsoluteTolerance	      "auto"
+      Realization	      "auto"
     }
     Block {
-      BlockType		      Constant
-      Name		      "number 2"
-      Position		      [80, 155, 110, 185]
-      Value		      "3.62"
-      VectorParams1D	      on
-    }
-    Block {
-      BlockType		      Display
-      Name		      "raznost"
-      Ports		      [1]
-      Position		      [210, 70, 300, 100]
-      FontSize		      10
-      Format		      "short"
-      Decimation	      "1"
-      Floating		      off
-      SampleTime	      "-1"
+      BlockType		      ZeroPole
+      Name		      "Zero-Pole"
+      Position		      [475, 172, 550, 208]
+      Zeros		      "[0]"
+      Poles		      "[-0.11 -1]"
+      Gain		      "[1]"
+      AbsoluteTolerance	      "auto"
     }
     Line {
-      SrcBlock		      "number 1"
+      SrcBlock		      "Transfer Fcn"
       SrcPort		      1
-      Points		      [10, 0]
-      Branch {
-	DstBlock		"Sum"
-	DstPort			1
-      }
-      Branch {
-	Points			"[0, -35; -100, 0; 0, 170; 100, 0; 0, -15; 30,"
-" 0]"
-	DstBlock		"Product"
-	DstPort			2
-      }
+      DstBlock		      "Sum1"
+      DstPort		      1
     }
     Line {
       SrcBlock		      "Sum"
       SrcPort		      1
-      DstBlock		      "raznost"
+      DstBlock		      "Transfer Fcn"
       DstPort		      1
     }
     Line {
-      SrcBlock		      "number 2"
+      SrcBlock		      "Constant"
       SrcPort		      1
-      Points		      [15, 0]
+      DstBlock		      "Sum"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "Zero-Pole"
+      SrcPort		      1
+      Points		      [5, 0]
       Branch {
-	Labels			[2, 0]
-	Points			[0, 0; 0, -40; 35, 0]
-	DstBlock		"Sum"
+	Points			[0, 55; -150, 0]
+	DstBlock		"Sum1"
 	DstPort			2
       }
       Branch {
-	Points			[30, 0]
-	DstBlock		"Product"
-	DstPort			1
+	Points			[20, 0]
+	Branch {
+	  Points		  [0, 85; -335, 0]
+	  DstBlock		  "Sum"
+	  DstPort		  2
+	}
+	Branch {
+	  Points		  [50, 0; -20, 5]
+	  DstBlock		  "Scope"
+	  DstPort		  1
+	}
       }
     }
     Line {
-      SrcBlock		      "Product"
+      SrcBlock		      "Sum1"
       SrcPort		      1
-      Points		      [10, 0; 0, -10]
-      DstBlock		      "chastnoe"
+      DstBlock		      "Zero-Pole"
       DstPort		      1
     }
   }
