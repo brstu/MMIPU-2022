@@ -5,12 +5,12 @@
 
 /**
  * @mainpage
- * @brief Ðàáîòà ðåãóëÿòîðà
+ * @brief Работа регулятора
  * @author Кулиш Сергей
  */
  /**
  * @class Reg_model
- * @brief Èíòåðôåéñ äëÿ ìîäåëè
+ * @brief  Интерфейс для модели
  */
 class Reg_model {
 public:
@@ -19,23 +19,23 @@ public:
 };
 /**
 * @class NL_Model
-* @brief Êëàññ íåëèíåéíîé ìîäåëè
+* @brief Класс нелинейной модели
 */
 class NL_Model :Reg_model {
 private:
     /**
-    * @brief                Ìàññèâû
+    * @brief                Массивы
     *
-    * @param   TempArr    Õðàíèò òåìïåðàòóðó
-    * @param   WarmArr    Õðàíèò òåïëî
+    * @param   TempArr    Хранит температуру
+    * @param   WarmArr    Хранит тепло
     */
      
     std::vector<long double> TempArr;
     std::vector<long double> WarmArr;
 public:
     /**
-     * @brief Ìåòîä âû÷èñëåíèÿ òåìïåðàòóðû äëÿ íåëèíåéíîé ìîäåëè
-     * @return buf          Âðåìåííàÿ ïåðåìåííàÿ
+     * @brief Метод вычисления температуры для нелинейной модели
+     * @return buf         Временная переменная
      */
     long double No_Line_Functoin(long double TeR, long double WaR, long double& a, long double& b, long double& c, long double& d) {
         double buf;
@@ -60,12 +60,12 @@ public:
 class PIDRegulator {
 private:
     /**
-     * @brief       Êîíñòàíòû êîíòðîëëåðà
+     * @brief       Константы контроллера
      *
-     * @param   T   Ïàðàìåòð Ò
-     * @param   T0  Ïàðàìåòð Ò0
-     * @param   Td  Ïàðàìåòð Td
-     * @param   K   Ïàðàìåòð k
+     * @param   T   Параметр Ò
+     * @param   T0  Параметр Ò0
+     * @param   Td  Параметр Td
+     * @param   K   Параметр k
      */
     long double u = 0;
     const long double Td = 25;
@@ -74,7 +74,7 @@ private:
     const long double k = 0.1;
 public:
     /**
-     * @brief            Ìåòîä âû÷èñëåíèÿ U
+     * @brief            Метод вычисления U
      * @return U         U
      */
     double Find_U(double e, double e1, double e2) {
@@ -86,7 +86,7 @@ public:
         return u;
     }
     /**
-     * @brief            ÏÈÄ-Ðåãóëÿòîð
+     * @brief            ПИД-Регулятор
     **/
     void Regulator(double w, double y0, NL_Model* nolinemodel, long double& a, long double& b, long double& c, long double& d) {
         std::ofstream fout;
