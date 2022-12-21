@@ -14,7 +14,7 @@ cout << "Hello PLCnext from AS005902!" << endl;
 3. Прописал "ping 192.168.1.10" в терминале для установки соединения.     
 4. Вводим в PuTTy ip: 192.168.1.10, такой же В WinSCP. В WinSCP ввёл имя пользователя (admin), и пароль с контроллера.  
 
-![Снимок1](image/Snimok1)   
+![Снимок1](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA1.PNG?raw=true)   
 ![Снимок2](image/Snimok2)  
 ![Снимок3](image/Snimok3)
 ![Снимок4](image/Snimok4)
