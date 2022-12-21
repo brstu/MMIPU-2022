@@ -5,12 +5,12 @@
 
 /**
  * @mainpage
- * @brief Работа регулятора
- * @author Кулиш Сергей Юрьевич
+ * @brief ГђГ ГЎГ®ГІГ  Г°ГҐГЈГіГ«ГїГІГ®Г°Г 
+ * @author РљСѓР»РёС€ РЎРµСЂРіРµР№
  */
  /**
  * @class Reg_model
- * @brief Интерфейс для модели
+ * @brief Г€Г­ГІГҐГ°ГґГҐГ©Г± Г¤Г«Гї Г¬Г®Г¤ГҐГ«ГЁ
  */
 class Reg_model {
 public:
@@ -19,23 +19,23 @@ public:
 };
 /**
 * @class NL_Model
-* @brief Класс нелинейной модели
+* @brief ГЉГ«Г Г±Г± Г­ГҐГ«ГЁГ­ГҐГ©Г­Г®Г© Г¬Г®Г¤ГҐГ«ГЁ
 */
 class NL_Model :Reg_model {
 private:
     /**
-    * @brief                Массивы
+    * @brief                ГЊГ Г±Г±ГЁГўГ»
     *
-    * @param   TempArr    Хранит температуру
-    * @param   WarmArr    Хранит тепло
+    * @param   TempArr    Г•Г°Г Г­ГЁГІ ГІГҐГ¬ГЇГҐГ°Г ГІГіГ°Гі
+    * @param   WarmArr    Г•Г°Г Г­ГЁГІ ГІГҐГЇГ«Г®
     */
      
     std::vector<long double> TempArr;
     std::vector<long double> WarmArr;
 public:
     /**
-     * @brief Метод вычисления температуры для нелинейной модели
-     * @return buf          Временная переменная
+     * @brief ГЊГҐГІГ®Г¤ ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГї ГІГҐГ¬ГЇГҐГ°Г ГІГіГ°Г» Г¤Г«Гї Г­ГҐГ«ГЁГ­ГҐГ©Г­Г®Г© Г¬Г®Г¤ГҐГ«ГЁ
+     * @return buf          Г‚Г°ГҐГ¬ГҐГ­Г­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї
      */
     long double No_Line_Functoin(long double TeR, long double WaR, long double& a, long double& b, long double& c, long double& d) {
         double buf;
@@ -60,12 +60,12 @@ public:
 class PIDRegulator {
 private:
     /**
-     * @brief       Константы контроллера
+     * @brief       ГЉГ®Г­Г±ГІГ Г­ГІГ» ГЄГ®Г­ГІГ°Г®Г«Г«ГҐГ°Г 
      *
-     * @param   T   Параметр Т
-     * @param   T0  Параметр Т0
-     * @param   Td  Параметр Td
-     * @param   K   Параметр k
+     * @param   T   ГЏГ Г°Г Г¬ГҐГІГ° Г’
+     * @param   T0  ГЏГ Г°Г Г¬ГҐГІГ° Г’0
+     * @param   Td  ГЏГ Г°Г Г¬ГҐГІГ° Td
+     * @param   K   ГЏГ Г°Г Г¬ГҐГІГ° k
      */
     long double u = 0;
     const long double Td = 25;
@@ -74,7 +74,7 @@ private:
     const long double k = 0.1;
 public:
     /**
-     * @brief            Метод вычисления U
+     * @brief            ГЊГҐГІГ®Г¤ ГўГ»Г·ГЁГ±Г«ГҐГ­ГЁГї U
      * @return U         U
      */
     double Find_U(double e, double e1, double e2) {
@@ -86,7 +86,7 @@ public:
         return u;
     }
     /**
-     * @brief            ПИД-Регулятор
+     * @brief            ГЏГ€Г„-ГђГҐГЈГіГ«ГїГІГ®Г°
     **/
     void Regulator(double w, double y0, NL_Model* nolinemodel, long double& a, long double& b, long double& c, long double& d) {
         std::ofstream fout;
