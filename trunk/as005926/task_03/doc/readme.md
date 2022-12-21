@@ -14,11 +14,11 @@ cout << "Hello PLCnext from AS005902!" << endl;
 3. Прописал "ping 192.168.1.10" в терминале для установки соединения.     
 4. Вводим в PuTTy ip: 192.168.1.10, такой же В WinSCP. В WinSCP ввёл имя пользователя (admin), и пароль с контроллера.  
 
-![Снимок1](image/Snimok1.PNG)   
-![Снимок2](image/Snimok2.PNG)  
-![Снимок3](image/Snimok3.PNG)
-![Снимок4](image/Snimok4.PNG)
-![Снимок5](image/Snimok5.PNG)
-![Снимок6](image/Snimok6.PNG)
+![Снимок1](image/Snimok1)   
+![Снимок2](image/Snimok2)  
+![Снимок3](image/Snimok3)
+![Снимок4](image/Snimok4)
+![Снимок5](image/Snimok5)
+![Снимок6](image/Snimok6)
 ## Вывод
 При работе с контроллером AXCF 215, ознакомился и п+поработал с ним. Так же запустио на нем программу "Hello PLCnext".        
