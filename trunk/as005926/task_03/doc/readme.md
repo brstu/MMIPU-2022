@@ -15,10 +15,10 @@ cout << "Hello PLCnext from AS005902!" << endl;
 4. Вводим в PuTTy ip: 192.168.1.10, такой же В WinSCP. В WinSCP ввёл имя пользователя (admin), и пароль с контроллера.  
 
 ![Снимок1](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA1.PNG?raw=true)   
-![Снимок2](image/Snimok2)  
-![Снимок3](image/Snimok3)
-![Снимок4](image/Snimok4)
-![Снимок5](image/Snimok5)
-![Снимок6](image/Snimok6)
+![Снимок2](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2.PNG?raw=true)  
+![Снимок3](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA3.PNG?raw=true)
+![Снимок4](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA4.PNG?raw=true)
+![Снимок5](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA5.PNG?raw=true)
+![Снимок6](https://github.com/danik28/MMIPU-2022/blob/task_3/trunk/as005926/task_03/doc/image/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA6.PNG?raw=true)
 ## Вывод
 При работе с контроллером AXCF 215, ознакомился и п+поработал с ним. Так же запустио на нем программу "Hello PLCnext".        
