@@ -14,7 +14,7 @@
 1. В main.cpp написал:
 
 ```с++
-cout << "Hello PLCnext from AS005902!" << endl;
+cout << "Hello PLCnext from AS0059024" << endl;
 ```
 
 2. Для сборки проекта использовал VSCode и расширения: CMake, CMake Tools, MinGW.
